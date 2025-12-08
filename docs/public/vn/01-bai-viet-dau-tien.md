@@ -48,22 +48,20 @@ Mình cũng có đọc kha khá các website dạng này(blog) của nhiều đ�
 
 Bản thân cuộc sống cá nhân của mình thì không có nhiều khía cạnh thú vị như họ. Mình chỉ sáng ngủ dậy -> ngồi máy tính tới tối -> ngủ. (dĩ nhiên là không làm việc 100% trong khoảng này đâu 🙂‍↔️). Chính vì thế, nội dung các bài viết, trước mắt thì mình chỉ tập trung vào nội dung chuyên môn lập trình Game thôi. Và vì lẽ đó nên sub-domain của website này là `devlog`.
 
-Trong các bài viết sắp tới thì sẽ tập trung vào Unity và C#. Trong quãng thời gian tới này, mình cũng có một vài project vẫn dùng Unity, nên coi như một công đôi việc. 
+Trong các bài viết sắp tới thì sẽ tập trung vào các chủ đề xoay quanh Unity như:
+- C# 
+- Code Gen
+- ECS
+- shader
+- optimize(chủ yếu là các vấn đề Runtime khi làm việc với 3d + ecs)
+- ...
 
-Về dài hạn thì sẽ thay đổi, không chỉ tập trung cho mỗi Unity nữa. Nhưng vụ đó thì còn xa, nên mật mí vậy thoy (he he 🤣). À và ko phải Unreal hay Godot đâu nhó.
-
-
-> [!warning] đang nghĩ trong đầu ...
-> Trời, thú thiệt ngồi build xong cái website này mệt lả, chẳng muốn viết gì hết trơn, nhưng thoy cố cho xong 1 bài để deploy test 🥲
-> 
-
+Trong quãng thời gian tới này, mình cũng có một vài project vẫn dùng Unity, nên coi như một công đôi việc. 
 
 # Cam kết "mỏng" & kết bài
 ---
 ## Tần suất lên bài
 Thường thì thời gian lên bài sẽ không cố định, nhưng ít nhất là 12 bài/năm.
-## Lưu ý 
-Nội dung các bài viết có thể được update để văn phong mượt mà, trôi chảy hơn, cũng như là check lỗi chính tả và lỗi format các file embed.
 
 
 
