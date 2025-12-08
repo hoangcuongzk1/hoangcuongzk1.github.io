@@ -1,0 +1,15 @@
+key,en,vn
+site_title,DevBlog,DevBlog
+latest_thoughts,Latest Thoughts,Bài Viết Mới Nhất
+search_placeholder,Search posts...,Tìm kiếm bài viết...
+no_posts_found,No posts found matching your criteria.,Không tìm thấy bài viết nào phù hợp.
+back_to_posts,Back to posts,Quay lại danh sách
+thanks_reading,Thanks for reading!,Cảm ơn bạn đã đọc!
+check_out_other,Check out other posts on the homepage.,Xem thêm các bài viết khác tại trang chủ.
+all_tags,All,Tất cả
+subtitle,"Exploring code, design, and technology.","Khám phá lập trình, thiết kế và công nghệ."
+footer_text,Built with React & TypeScript.,Xây dựng với React & TypeScript.
+loading,Loading...,Đang tải...
+read_more,Read more,Đọc thêm
+sort_desc,Newest,Mới nhất
+sort_asc,Oldest,Cũ nhất
