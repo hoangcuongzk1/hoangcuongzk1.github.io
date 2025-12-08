@@ -1,13 +1,13 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+# mac OS system files
 *.DS_Store
+
 # Jetbrain IDE files
 .idea/
+
 # obsidian
 .obsidian/
 
-# jekyll dependencies
-Gemfile.lock
+# typeScripts
+node_modules/
+dist/
+package-lock.json
