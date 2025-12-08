@@ -18,25 +18,28 @@ Mình bắt đầu hành trình làm Game từ năm 2021. Tính tới nay cũng 
 Và mình cũng tự học, tự làm liên tục trong khoảng 3 năm trở lại đây rồi. Quả thực thì quãng thời gian này buồn, chán nhiều hơn là vui. Có lẽ là do con đường mình chọn nó không trùng với đại đa số anh em, đồng nghiệp xung quanh. Nhìn chung là cũng hơi "dại" 😂.
 Nhưng thoy, kệ đi.
 
-> [!NOTE] Các cụ đã bảo rồi:
 > Lỡ đâm lao thì phải theo lao thoy !
 
-
 ## Tái hoà nhập cộng đồng
+
 Vâng, và đó cũng là lý do chính, làm một mình hoài, đôi khi vừa chán, vừa không biết mình đang ở đâu. Cảm giác lúc nào cũng như con ếch ngồi ở đáy giếng vậy.
 
 Chính vì thế, mình quyết định bắt đầu xây dựng trang web này để thi thoảng rảnh dỗi thì lên bài. Với hi vọng rằng bản thân sẽ mau chóng "tái hoà nhập cộng đồng" 🥲. Với việc lộ diện như vậy, ít nhiều mình sẽ có cơ hội gặp gỡ và giao lưu với nhiều người hơn, và cái giếng của mình nó sẽ nở hoa hơn so với hiện tại.
 
 ## Quan sát và hoàn thiện bản thân 
+
 Vì làm việc một mình nên mình không có ai feedback hay đánh giá cho chất lượng, hiệu quả công việc mà mình làm cả. Việc ghi chép nếu thực hiện nội bộ/cá nhân thì đôi khi sự lười biếng đánh bại tính kỷ luật.
+
 Chính vì vầy, việc công khai suy nghĩ, ngâm cứu,.... của bản thân sẽ phần nào là hình thức gián tiếp ép bản thân phải chịu trách nhiệm cho một nghĩa vụ cụ thể. Và nếu không hoàn thành thì sẽ mất uy tín và cắn dứt lương tâm 🙃.
+
 Cái vụ này thì các bạn lướt web hay xem diễn giả họ cũng đề cập khá nhiều, nhưng về cơ bản là tuỳ hoàn cảnh môi trường mỗi người, mình thì đang là "nước tới cổ rồi mới chịu bơi".
-## Lan toả giá trị 
+## Lan toả giá trị 😆
+
 Trước đây và tới hiện tại, bản thân mình vẫn luôn tìm kiếm những blog, website,... của những dev có kinh nghiệm trong ngành. Mình học hỏi từ những nguồn như vậy rất nhiều.
-Nhưng để tìm kiếm các nguồn như vậy bằng tiếng việt thì tương đối hiếm. Dĩ nhiên tài liệu tiếng anh nhiều hơn rồi, nhưng mình hiện đang sinh sống và làm việc tại Việt Nam, nên nếu có thì mình vẫn muốn đọc từ các anh em nhà mềnh hơn. Cách diễn giải, văn phong nó khiến mình cảm thấy việc tiếp thu nó nhanh chóng hơn.
+
+Nhưng để tìm kiếm các nguồn như vậy bằng tiếng việt thì tương đối hiếm. Dĩ nhiên tài liệu tiếng anh nhiều hơn rồi, nhưng mình hiện đang sinh sống và làm việc tại Việt Nam, nên nếu có thì mình vẫn muốn đọc từ các anh em nhà mềnh hơn. Cách diễn giải, văn phong gần gũi của tiếng mẹ đẻ khiến mình cảm thấy việc tiếp thu nó nhanh chóng hơn.
+
 Gần đây thì có chatGPT. Nó cũng là một cái gì đó rất là tiện ích cho việc "tra cứu". Nhưng cái gì cũng có 2 mặt. Lợi ích của nó thì phải để thời gian chứng minh, hiện tại thì mình thấy "thất nghiệp" nhiều hơn ngày xưa, nên mình ít đồng nghiệp hơn, khó tìm kiếm bạn bè cùng ngành hơn 🙃... z z Z.
-
-
 
 
 # Nội dung các bài viết sẽ đề cấp tới những gì ?
