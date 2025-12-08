@@ -1,2 +1,2 @@
 ## My personal site
-[Devlog site link](https://hoangcuongzk1-devlog.xynok.com/)
+[CLICK ME](https://hoangcuongzk1-devlog.xynok.com/)
