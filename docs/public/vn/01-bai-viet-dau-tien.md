@@ -1,5 +1,5 @@
 ---
-title: Bài viết đầu tiên
+title: 1 - Khởi đầu
 creation date: 2025-12-09T01:26:00
 slug: post-01
 excerpt: Lý do trang web này tồn tại, các nội dung mà trang sẽ có.

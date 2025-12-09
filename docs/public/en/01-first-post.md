@@ -1,5 +1,5 @@
 ---
-title: First Post !
+title: 1 - First Post
 creation date: 2025-12-09T01:15:00
 slug: post-01
 excerpt: Why This Website Exists, and What It Will Contain.
