@@ -37,8 +37,6 @@ You’ll often hear speakers or bloggers mention this idea, but ultimately, it d
 ## Spreading Value 😆
 In the past—and even now—I often look for blogs or websites run by experienced developers. I’ve learned a lot from such sources.
 
-However, finding high-quality Vietnamese technical blogs is relatively difficult. Sure, English resources are abundant, but since I’m living and working in Vietnam, I still prefer reading from the “home team.” The familiarity of the language makes things much easier to absorb.
-
 Recently, there’s ChatGPT, which is incredibly useful as a “lookup tool.” But every tool has two sides. While it's convenient, I also feel like the industry is seeing more “unemployment” than before. That means fewer colleagues to talk to… fewer peers to connect with 🙃… z z Z.
 
 # What Will the Articles Be About?
