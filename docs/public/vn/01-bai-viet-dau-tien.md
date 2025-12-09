@@ -2,7 +2,7 @@
 title: Bài viết đầu tiên
 creation date: 2025-12-09T01:26:00
 slug: 01-post
-excerpt: Hành trình vô định ! Lý do trang web này tồn tại, các nội dung mà trang sẽ có.
+excerpt: Lý do trang web này tồn tại, các nội dung mà trang sẽ có.
 lang: vn
 cover img: https://cdn11.bigcommerce.com/s-8e25iavqdi/images/stencil/1280x1280/products/121929/138853/the-hobbit-an-unexpected-journey-4-cover-art-sticker-ACF054879__04107.1650926362.jpg?c=2
 tags:
@@ -58,10 +58,34 @@ Trong các bài viết sắp tới thì sẽ tập trung vào các chủ đề x
 
 Trong quãng thời gian tới này, mình cũng có một vài project vẫn dùng Unity, nên coi như một công đôi việc. 
 
+# Đối tượng độc giả
+---
+Khi viết tài liệu về những lĩnh vực kỹ thuật, cái khó nhất là viết để "người đọc hiểu được", cái khó hơn cả cái khó thứ nhất là "người viết phải hiểu" mình đang viết cái gì 🙄.
+
+Bản thân mình trước đây cũng vấp phải tình trạng "nhảy cóc", thiếu kiến thức cơ bản trầm trọng nhưng vẫn ham hố tìm đọc những tài liệu phức tạp, bỏ thời gian công sức để giải quyết những giải pháp không bao giờ có cơ hội dùng tới(thường là do deadline, code chạy đã tối ưu sau).
+
+Quãng thời gian "nhảy cóc" đó có lãng phí không ? Câu trả lời(chủ quan) là KHÔNG. Tuy chưa dùng được ngay nhưng nó là của đề dành. Là tài sản, là đòn bẩy để mình luôn có lý do để thức dậy mỗi ngày.
+
+> Giá trị của một khoá học có thể quy ra tiền được nhưng giá trị của kiến thức trong đầu bạn thì chỉ có thời gian mới trả lời được.
+
+Chính vì lẽ đó, nội dung các bài viết sẽ không cố định mức độ, khối lượng kiến thức cần trang bị để có thể hiểu. Chúng có thể là một cái tip nho nhỏ để giảm `allocation`, một cách triển khai pattern đơn giản để giải quyết một bài toán đặc thù, vv...
+
+Nhưng nói gì thì nói, mình viết để mình đọc nữa nên mình sẽ cố gắng phân loại bại viết theo #tag:
+- `low-level`: thường sử dụng API cấp thấp(code khó đọc)
+- `high_level`: abstract API, các model, func đã được build sẵn có tính ứng dụng cao(code dễ hiểu, dễ đọc).
+
+Và không có `middle_level`, vì đơn giản cái gì ko `low` thì nó nên là `high` rồi. 
 # Cam kết "mỏng" & kết bài
 ---
 ## Tần suất lên bài
-Thường thì thời gian lên bài sẽ không cố định, nhưng ít nhất là 12 bài/năm.
+Thường thì thời gian lên bài sẽ không cố định, nhưng sẽ cố gắng lên ít nhất là 12 bài/năm.
 
+## Chất lượng bài viết
+Thường thì khi viết xong 1 bài thì mình sẽ `deploy` để check xem có lỗi render gì không, sau đó bắt đầu làm mịn nội dung và bố cục bài viết. Mục đích là để các bạn khi đọc sẽ "mượt" hơn. Nhìn hấp dẫn hơn. 
 
+Nhưng thân mình cũng chỉ là "coder", nên không đảm bảo mọi bài viết đều có hình minh hoạ bắt mắt, video này nọ được. Kiểu bị "lười" ấy 😔.
+
+Dù sao thì cũng hi vọng các bạn tìm thấy điều gì đó hữu ích nơi đây, các bạn vui thì mình phấn khởi 🙂‍↔️.
+
+Nhưng không sao, thi thoảng rảnh mình vẫn sẽ update để nội dung nhìn ổn hơn, nên nếu các bạn muốn góp ý thì 👇👇👇.
 
