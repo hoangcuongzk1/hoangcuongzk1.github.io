@@ -10,60 +10,85 @@ tags:
   - just_talk
 ---
 # Why This Website Exists
+
 ---
-Hi there — I’m Cường.  
-I began my journey in Game Development back in 2021, which means it’s been nearly five years already. Throughout this time, the most valuable thing I’ve learned is the ability to **self-teach** (mostly wandering around the internet, to be honest 🫠).
 
-For the past three years, I’ve also been working completely on my own. And frankly, those years were filled with more boredom and frustration than joy. Maybe it’s because the path I chose doesn’t quite match the majority of my peers or colleagues. In a way, it was a bit of a “foolish” choice 😂.  
-But well… it is what it is.
+Hello there, I'm Cuong.  
+I began my journey in game development back in 2021. It has been almost five years now, and the most valuable thing I’ve learned throughout this period is the ability to **self-learn**—which, to be honest, mostly means wandering around the Internet 🫠.
 
-> *“If you’ve leapt onto a running spear, you must keep running with it.”*  
-> *(Vietnamese proverb — optional adaptation)*
+Over the past three years, I’ve been learning and building things on my own nonstop. To be frank, this stretch has brought more frustration than joy. Perhaps because the path I chose doesn’t quite align with what most colleagues or friends around me follow. In short, it’s a bit… “reckless” 😂.  
+But well, it is what it is.
+
+> Once you've taken the plunge, you might as well keep swimming.
 
 ## Reconnecting With the Community
-Yup — and that’s one of the main reasons behind this website. Working alone for too long often leaves me unsure of where I stand. It feels like being a frog stuck at the bottom of a well.
 
-So I decided to build this place, hoping that posting occasionally will help me “re-enter society” 🥲. By showing up online more, I might have more opportunities to meet and talk with new people — maybe enough to make my little well blossom a bit.
+And that’s the main reason behind all this. Working alone for too long sometimes leaves me feeling both bored and lost—like a frog sitting at the bottom of a well, unsure of what lies outside.
 
-## Observing and Improving Myself
-Since I work alone, there’s no one to give me feedback or evaluate the quality of what I do. When notes and documentation are kept private, laziness tends to defeat discipline.
+That’s why I decided to build this website—to occasionally publish something whenever I’m free. My hope is that it’ll help me **reconnect with the community** 🥲. By putting myself out there, I’ll naturally have more chances to meet and interact with others, and maybe this little “well” of mine will start blooming a bit.
 
-By making my thoughts, experiments, and reflections public, I’m indirectly forcing myself to stay accountable to something concrete. Missing that responsibility means losing credibility — and dealing with a guilty conscience 🙃.
+## Self-Reflection and Personal Growth
+Working solo means no one is around to give feedback or evaluate the quality and efficiency of what I do. And when notes or documentation are kept privately, laziness tends to defeat discipline.
 
-You’ll see this idea mentioned by many speakers or creators online, but in reality, it all depends on each person’s environment and circumstances.  
-As for me — *the water is already up to my neck, so I guess it’s time to swim.*
+So by sharing my thoughts and research publicly, I’m indirectly forcing myself to uphold a certain level of responsibility. Failing to do so would cost me credibility—and probably guilt too 🙃.
 
-## Spreading Value
-In the past and even now, I constantly search for blogs and websites run by experienced developers. I’ve learned so much from those sources.
+You’ll often hear speakers or bloggers mention this idea, but ultimately, it depends on each person’s circumstances. As for me, well… I usually wait until the water is up to my neck before I start swimming.
 
-However, finding similar resources *in Vietnamese* is still pretty rare. English material is obviously abundant, but since I live and work in Vietnam, I still prefer reading from local developers. The way they write and explain things just feels easier to absorb.
+## Spreading Value 😆
+In the past—and even now—I often look for blogs or websites run by experienced developers. I’ve learned a lot from such sources.
 
-And of course, we now have ChatGPT — a very convenient tool for “quick lookup.” But everything has two sides. While its usefulness is undeniable, I personally see more people becoming “jobless” in tech than before, meaning fewer colleagues and fewer peers to connect with 🙃... z z Z.
+However, finding high-quality Vietnamese technical blogs is relatively difficult. Sure, English resources are abundant, but since I’m living and working in Vietnam, I still prefer reading from the “home team.” The familiarity of the language makes things much easier to absorb.
 
-
+Recently, there’s ChatGPT, which is incredibly useful as a “lookup tool.” But every tool has two sides. While it's convenient, I also feel like the industry is seeing more “unemployment” than before. That means fewer colleagues to talk to… fewer peers to connect with 🙃… z z Z.
 
 # What Will the Articles Be About?
 ---
-I’ve read quite a number of blogs like this — from both local and international seniors. Their content is usually diverse and deeply tied to their lives.
+After reading quite a few similar blogs—both local and international—I’ve noticed that their content tends to be diverse, usually revolving around the writer’s personal experiences.
 
-Unfortunately, my personal life isn’t nearly as exciting. My typical day looks like: wake up → sit at my computer until evening → sleep. (And no, I’m not working 100% of that time 🙂‍↔️). Because of that, at least for now, I’ll focus solely on **game-development-related content**.  
-That’s also why the website uses the sub-domain `devlog`.
+My daily life is far less colorful compared to theirs. My routine is basically: wake up → sit at the computer until night → sleep. (Of course, it’s not 100% work time 🙂‍↔️).  
+So for now, I’ll focus mainly on **game development topics**, which is why the website uses the sub-domain `devlog`.
 
-Most upcoming posts will revolve around **Unity** and **C#**. I have several Unity-based projects underway anyway — two birds with one stone.
+Upcoming posts will revolve around Unity, including:
 
-In the long run, the focus will expand beyond Unity. But that’s still far ahead, so I’ll keep that a secret for now (he he 🤣).  
-And no — it won’t be Unreal or Godot.
+- C#
+- Code Generation
+- ECS
+- Shaders
+- Optimization (mainly runtime issues in 3D + ECS)
+- ...
+I also have several Unity-based projects coming up, so this is a two-birds-one-stone situation.
 
-> **A random thought while writing…**  
-> Honestly, building this entire website drained me. I don’t feel like writing anymore, but I’ll finish this post so I can deploy and test it 🥲
-
-
-
-# A “Lightweight Promise” & Closing Thoughts
+# Target Audience
 ---
-## Posting Frequency  
-The schedule won’t be fixed, but at the very least: **12 posts per year**.
+When writing technical material, the biggest challenge is “making the reader understand.” But an even greater challenge is ensuring **the writer truly understands** what they’re explaining 🙄.
 
-## Notes  
-Posts may be updated occasionally to improve clarity, writing flow, spelling, and the formatting of embedded files.
+I used to jump ahead a lot too—skipping fundamentals and diving straight into complex topics, investing time into solutions I never actually used later (usually because of deadlines or because the existing system was already optimized enough).
 
+Was that time wasted?  
+My (very subjective) answer: **No.**  
+Even if I couldn’t apply it immediately, it became “savings”—knowledge stored for the future, a form of leverage that keeps me motivated day after day.
+
+> The cost of a course can be measured in money, but the value of the knowledge in your mind can only be answered by time.
+
+For that reason, the depth and difficulty of my articles will vary. Some might be small tips to reduce **allocations**, while others could be simple pattern implementations for specific problems, and so on.
+
+But since I also write for myself, I’ll try to categorize posts using #tags:
+
+- `low-level`: uses low-level APIs (harder to read code)
+    
+- `high-level`: abstract APIs, pre-built models/functions with high usability (easy to read and understand)
+    
+
+There’s no `middle_level` because, honestly, anything not “low” might as well be “high.”
+# A Light Commitment & Closing Words
+---
+## Posting Frequency
+There’s no strict schedule, but I’ll try to publish at least **12 posts a year**.
+
+## Content Quality
+After finishing a post, I usually `deploy` it first to check for any rendering issues, then come back to refine the content and structure. The goal is to make your reading experience as smooth and pleasant as possible.
+
+But I’m just a coder, so I can’t guarantee fancy visuals, diagrams, or videos. Sometimes I’m just… lazy 😔.
+
+Still, I hope you find something useful here. If you enjoy the content, that alone keeps me motivated 🙂‍↔️.  
+I’ll continue updating posts whenever I can, and if you’d like to share feedback, feel free to reach out 👇👇👇.
