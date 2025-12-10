@@ -19,7 +19,7 @@
   {
     const currentUrl = window.location.href;
     const isStatic = currentUrl.includes("/static_posts/");
-    if (!isStatic) 
+    if (isStatic) 
     {
       const newUrl = currentUrl.replace("/static_posts/","/posted/") ;
       window.location.replace(newUrl); // redirect đến URL chuẩn
