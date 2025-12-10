@@ -16,7 +16,16 @@
 </head>
 <body>
 <script>
-  window.__PRERENDER_SLUG__ = "post-01";
+  // Nếu đang chạy trên trình duyệt, redirect đến URL chuẩn
+  if (typeof window !== 'undefined') 
+  {
+    const currentUrl = window.location.href;
+    const hasHash = currentUrl.includes('#/');
+    if (!hasHash) {
+      const newUrl = currentUrl.replace("/post","#/post") ;
+      window.location.replace(newUrl); // redirect đến URL chuẩn
+    }
+  }
 </script>
 <h1>1 - Khởi đầu</h1>
 <p>Lý do trang web này tồn tại, các nội dung mà trang sẽ có.</p>
