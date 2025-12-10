@@ -1,3 +1,3 @@
 slug,title,date,tags,excerpt,lang,fileName,cover
 post-01,1 - Khởi đầu,2025-12-09T01:26:00,y2025|just_talk,"Lý do trang web này tồn tại, các nội dung mà trang sẽ có.",vn,01-bai-viet-dau-tien.md,https://cdn11.bigcommerce.com/s-8e25iavqdi/images/stencil/1280x1280/products/121929/138853/the-hobbit-an-unexpected-journey-4-cover-art-sticker-ACF054879__04107.1650926362.jpg?c=2
-post-00,0 - Test Post Rendering,2025-12-08T01:26:00,y2025|test,Test Post Rendering.,vn,00-test.md,https://i.pinimg.com/originals/82/71/47/82714763ab84910774a889d31ca8e4c1.gif
+post-00,0 - Thử nghiệm markdown rendering,2025-12-08T01:26:00,y2025|test,Thử nghiệm convert markdown -> HTML.,vn,00-test.md,https://i.pinimg.com/originals/82/71/47/82714763ab84910774a889d31ca8e4c1.gif

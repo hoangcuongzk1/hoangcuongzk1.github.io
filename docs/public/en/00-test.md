@@ -2,14 +2,14 @@
 title: 0 - Test Post Rendering
 creation date: 2025-12-08T01:26:00
 slug: post-00
-excerpt: Test Post Rendering.
+excerpt: Test Post Rendering from markdown to HTML.
 lang: en
 cover img: https://i.pinimg.com/originals/82/71/47/82714763ab84910774a889d31ca8e4c1.gif
 tags:
   - y2025
   - test
 ---
-## test youtube link
+## links
 [ANH VẪN LUÔN ĐỢI EM, ANH CHỈ THƯƠNG MÌNH NÀNG REMIX - TRƯƠNG ĐÌNH HOÀNG - LIL VAN x SS x AM REMIX - YouTube](https://www.youtube.com/watch?v=QfdT9U9p0cU&list=RDMMQfdT9U9p0cU&start_radio=1)
 
 ![youtube link cham than](https://www.youtube.com/watch?v=QfdT9U9p0cU&list=RDMMQfdT9U9p0cU&start_radio=1)
@@ -23,6 +23,8 @@ class Conga
 ```
 
 ## Inline code
+this is `inline code` block.
+this is `inline code` block.
 this is `inline code` block.
 # math inline
 This is a formula: $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$used for something ... bla bla
@@ -65,6 +67,26 @@ $$
 |                                                                                       |                                                                                       | ![texture 1](https://i.pinimg.com/736x/6c/1c/0b/6c1c0bb31b77baf726b3b21186f3a280.jpg) | ![texture 1](https://i.pinimg.com/736x/6c/1c/0b/6c1c0bb31b77baf726b3b21186f3a280.jpg) |                                                                                       |                                                                                       |
 | ![texture 1](https://i.pinimg.com/736x/6c/1c/0b/6c1c0bb31b77baf726b3b21186f3a280.jpg) |                                                                                       |                                                                                       |                                                                                       |                                                                                       | ![texture 1](https://i.pinimg.com/736x/6c/1c/0b/6c1c0bb31b77baf726b3b21186f3a280.jpg) |
 
+## Image Divider
+
+<div style="display: flex; justify-content: center; align-items: center;">
+  <!-- Left Image -->
+  <div style="padding-right: 10px;">
+    <img src="https://i.pinimg.com/736x/6c/1c/0b/6c1c0bb31b77baf726b3b21186f3a280.jpg" alt="Description of image 1" style="max-width: 100%; height: auto;">
+  </div>
+
+  <!-- Vertical Line (Divider) -->
+  <div style="border-left: 2px solid #ccc; height: 150px;"></div>
+
+  <!-- Right Image -->
+  <div style="padding-left: 10px;">
+    <img src="https://i.pinimg.com/originals/1c/92/3f/1c923f838dea201a515993e4917c96ee.gif" alt="Description of image 2" style="max-width: 100%; height: auto;">
+  </div>
+</div>
+
+## Divider
+---
+---
 
 # H1
 ## H2
@@ -128,36 +150,3 @@ Special characters: ! @ # $ % ^ & * ( ) - _ = + \ | { } ; : , . < > / ?
 
 <p align="right">Right ALignment</p>
 
-## Divider
----
----
-
-## Mermaid
-```mermaid
-flowchart TD
-
-A[Christmas] -->|Get money| B(Go shopping)
-
-B --> C{Let me think}
-
-C -->|One| D[Laptop]
-
-C -->|Two| E[iPhone]
-
-C -->|Three| F[fa:fa-car Car]
-```
-
-<div style="display: flex; justify-content: center; align-items: center;">
-  <!-- Left Image -->
-  <div style="padding-right: 10px;">
-    <img src="https://i.pinimg.com/736x/6c/1c/0b/6c1c0bb31b77baf726b3b21186f3a280.jpg" alt="Description of image 1" style="max-width: 100%; height: auto;">
-  </div>
-
-  <!-- Vertical Line (Divider) -->
-  <div style="border-left: 2px solid #ccc; height: 150px;"></div>
-
-  <!-- Right Image -->
-  <div style="padding-left: 10px;">
-    <img src="https://i.pinimg.com/originals/1c/92/3f/1c923f838dea201a515993e4917c96ee.gif" alt="Description of image 2" style="max-width: 100%; height: auto;">
-  </div>
-</div>
