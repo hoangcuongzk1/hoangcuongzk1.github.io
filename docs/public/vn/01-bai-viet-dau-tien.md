@@ -9,6 +9,48 @@ tags:
   - y2025
   - just_talk
 ---
+## test youtube link
+[ANH VẪN LUÔN ĐỢI EM, ANH CHỈ THƯƠNG MÌNH NÀNG REMIX - TRƯƠNG ĐÌNH HOÀNG - LIL VAN x SS x AM REMIX - YouTube](https://www.youtube.com/watch?v=QfdT9U9p0cU&list=RDMMQfdT9U9p0cU&start_radio=1)
+
+![youtube link cham than](https://www.youtube.com/watch?v=QfdT9U9p0cU&list=RDMMQfdT9U9p0cU&start_radio=1)
+## Test code blocks
+```cs
+class Conga
+{
+	public int x;
+	public Vector3 pos;
+}
+```
+
+# Latex
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+## Math
+
+$$
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+$$
+
+## Table
+
+| Id  | A                        | Id  | A                        | Id  | A                        |                          |
+| --- | ------------------------ | --- | ------------------------ | --- | ------------------------ | ------------------------ |
+|     | Chào bạn, mình là Cường. |     | Chào bạn, mình là Cường. |     | Chào bạn, mình là Cường. |                          |
+| Id  | A                        | Id  | A                        | Id  | A                        | A                        |
+|     | Chào bạn, mình là Cường. |     | Chào bạn, mình là Cường. |     | Chào bạn, mình là Cường. | Chào bạn, mình là Cường. |
+
+| Id  | A                                                                            | Id                                                                           | A                        |
+| --- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------ |
+|     | Chào bạn, mình là Cường.                                                     |                                                                              | Chào bạn, mình là Cường. |
+| Id  | A                                                                            | Id                                                                           | A                        |
+|     | Chào bạn, mình là Cường.                                                     |                                                                              | Chào bạn, mình là Cường. |
+
+![texture 1](https://i.pinimg.com/736x/6c/1c/0b/6c1c0bb31b77baf726b3b21186f3a280.jpg)
+
+
+
+
+| ![texture 1](https://i.pinimg.com/736x/6c/1c/0b/6c1c0bb31b77baf726b3b21186f3a280.jpg) | ![texture 1](https://i.pinimg.com/736x/6c/1c/0b/6c1c0bb31b77baf726b3b21186f3a280.jpg) |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 
 # Lý do trang web này tồn tại
 ---
