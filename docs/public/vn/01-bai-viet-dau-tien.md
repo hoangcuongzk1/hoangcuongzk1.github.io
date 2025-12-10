@@ -9,49 +9,6 @@ tags:
   - y2025
   - just_talk
 ---
-## test youtube link
-[ANH VẪN LUÔN ĐỢI EM, ANH CHỈ THƯƠNG MÌNH NÀNG REMIX - TRƯƠNG ĐÌNH HOÀNG - LIL VAN x SS x AM REMIX - YouTube](https://www.youtube.com/watch?v=QfdT9U9p0cU&list=RDMMQfdT9U9p0cU&start_radio=1)
-
-![youtube link cham than](https://www.youtube.com/watch?v=QfdT9U9p0cU&list=RDMMQfdT9U9p0cU&start_radio=1)
-## Test code blocks
-```cs
-class Conga
-{
-	public int x;
-	public Vector3 pos;
-}
-```
-
-# Latex
-$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
-## Math
-
-$$
-\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-$$
-
-## Table
-
-| Id  | A                        | Id  | A                        | Id  | A                        |                          |
-| --- | ------------------------ | --- | ------------------------ | --- | ------------------------ | ------------------------ |
-|     | Chào bạn, mình là Cường. |     | Chào bạn, mình là Cường. |     | Chào bạn, mình là Cường. |                          |
-| Id  | A                        | Id  | A                        | Id  | A                        | A                        |
-|     | Chào bạn, mình là Cường. |     | Chào bạn, mình là Cường. |     | Chào bạn, mình là Cường. | Chào bạn, mình là Cường. |
-
-| Id  | A                                                                            | Id                                                                           | A                        |
-| --- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------ |
-|     | Chào bạn, mình là Cường.                                                     |                                                                              | Chào bạn, mình là Cường. |
-| Id  | A                                                                            | Id                                                                           | A                        |
-|     | Chào bạn, mình là Cường.                                                     |                                                                              | Chào bạn, mình là Cường. |
-
-![texture 1](https://i.pinimg.com/736x/6c/1c/0b/6c1c0bb31b77baf726b3b21186f3a280.jpg)
-
-
-
-
-| ![texture 1](https://i.pinimg.com/736x/6c/1c/0b/6c1c0bb31b77baf726b3b21186f3a280.jpg) | ![texture 1](https://i.pinimg.com/736x/6c/1c/0b/6c1c0bb31b77baf726b3b21186f3a280.jpg) |
-| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-
 # Lý do trang web này tồn tại
 ---
 Chào bạn, mình là Cường.
@@ -63,20 +20,17 @@ Nhưng thoy, kệ đi.
 > Lỡ đâm lao thì phải theo lao thoy !
 
 ## Tái hoà nhập cộng đồng
-
 Vâng, và đó cũng là lý do chính, làm một mình hoài, đôi khi vừa chán, vừa không biết mình đang ở đâu. Cảm giác lúc nào cũng như con ếch ngồi ở đáy giếng vậy.
 
 Chính vì thế, mình quyết định bắt đầu xây dựng trang web này để thi thoảng rảnh dỗi thì lên bài. Với hi vọng rằng bản thân sẽ mau chóng "tái hoà nhập cộng đồng" 🥲. Với việc lộ diện như vậy, ít nhiều mình sẽ có cơ hội gặp gỡ và giao lưu với nhiều người hơn, và cái giếng của mình nó sẽ nở hoa hơn so với hiện tại.
 
 ## Quan sát và hoàn thiện bản thân 
-
 Vì làm việc một mình nên mình không có ai feedback hay đánh giá cho chất lượng, hiệu quả công việc mà mình làm cả. Việc ghi chép nếu thực hiện nội bộ/cá nhân thì đôi khi sự lười biếng đánh bại tính kỷ luật.
 
 Chính vì vầy, việc công khai suy nghĩ, ngâm cứu,.... của bản thân sẽ phần nào là hình thức gián tiếp ép bản thân phải chịu trách nhiệm cho một nghĩa vụ cụ thể. Và nếu không hoàn thành thì sẽ mất uy tín và cắn dứt lương tâm 🙃.
 
 Cái vụ này thì các bạn lướt web hay xem diễn giả họ cũng đề cập khá nhiều, nhưng về cơ bản là tuỳ hoàn cảnh môi trường mỗi người, mình thì đang là "nước tới cổ rồi mới chịu bơi".
 ## Lan toả giá trị 😆
-
 Trước đây và tới hiện tại, bản thân mình vẫn luôn tìm kiếm những blog, website,... của những dev có kinh nghiệm trong ngành. Mình học hỏi từ những nguồn như vậy rất nhiều.
 
 Nhưng để tìm kiếm các nguồn như vậy bằng tiếng việt thì tương đối hiếm. Dĩ nhiên tài liệu tiếng anh nhiều hơn rồi, nhưng mình hiện đang sinh sống và làm việc tại Việt Nam, nên nếu có thì mình vẫn muốn đọc từ các anh em nhà mềnh hơn. Cách diễn giải, văn phong gần gũi của tiếng mẹ đẻ khiến mình cảm thấy việc tiếp thu nó nhanh chóng hơn.
