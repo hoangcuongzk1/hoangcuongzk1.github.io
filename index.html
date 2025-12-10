@@ -1,22 +1,118 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
-<meta charset="UTF-8">
-<title>My Blog</title>
-<meta name="description" content="Welcome to my blog">
-<meta property="og:title" content="My Blog">
-<meta property="og:description" content="Welcome to my blog">
-<meta property="og:image" content="/default-cover.png">
-<meta property="og:type" content="article">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="My Blog">
-<meta name="twitter:description" content="Welcome to my blog">
-<meta name="twitter:image" content="/default-cover.png">
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/png" href="/texture/my_logo.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>hoangcuongzk1</title>
+    <!-- KaTeX CSS for Math Rendering -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
+          integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3b82f6',
+                        secondary: '#64748b',
+                    },
+                    keyframes: {
+                        fadeInUp: {
+                            '0%': {opacity: '0', transform: 'translateY(10px)'},
+                            '100%': {opacity: '1', transform: 'translateY(0)'},
+                        }
+                    },
+                    animation: {
+                        'fade-in-up': 'fadeInUp 0.3s ease-out forwards',
+                    },
+                    typography: (theme) => ({
+                        DEFAULT: {
+                            css: {
+                                maxWidth: 'none',
+                                color: theme('colors.gray.800'),
+                                a: {
+                                    color: theme('colors.blue.600'),
+                                    '&:hover': {
+                                        color: theme('colors.blue.700'),
+                                    },
+                                },
+                                code: {
+                                    color: theme('colors.pink.600'),
+                                    backgroundColor: theme('colors.gray.100'),
+                                    padding: '0.2em 0.4em',
+                                    borderRadius: '0.25rem',
+                                    fontWeight: '400',
+                                },
+                                'code::before': {
+                                    content: '""',
+                                },
+                                'code::after': {
+                                    content: '""',
+                                },
+                            },
+                        },
+                        invert: {
+                            css: {
+                                color: theme('colors.gray.200'),
+                                a: {
+                                    color: theme('colors.blue.400'),
+                                    '&:hover': {
+                                        color: theme('colors.blue.300'),
+                                    },
+                                },
+                                h1: {color: theme('colors.gray.100')},
+                                h2: {color: theme('colors.gray.100')},
+                                h3: {color: theme('colors.gray.100')},
+                                h4: {color: theme('colors.gray.100')},
+                                code: {
+                                    color: theme('colors.pink.400'),
+                                    backgroundColor: theme('colors.gray.800'),
+                                },
+                                strong: {color: theme('colors.gray.100')},
+                            },
+                        },
+                    }),
+                }
+            }
+        }
+    </script>
+
+    <!--  google ga4-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NV5JJ2NCR0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-NV5JJ2NCR0');
+    </script>
+    <script type="importmap">
+        {
+          "imports": {
+            "react/": "https://aistudiocdn.com/react@^19.2.1/",
+            "react": "https://aistudiocdn.com/react@^19.2.1",
+            "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.10.1",
+            "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+            "react-markdown": "https://esm.sh/react-markdown@9.0.1?bundle",
+            "remark-gfm": "https://esm.sh/remark-gfm@4.0.0?bundle",
+            "remark-math": "https://esm.sh/remark-math@6.0.0?bundle",
+            "rehype-katex": "https://esm.sh/rehype-katex@7.0.0?bundle",
+            "react-syntax-highlighter": "https://esm.sh/react-syntax-highlighter@15.5.0?bundle",
+            "react-syntax-highlighter/dist/esm/styles/prism": "https://esm.sh/react-syntax-highlighter@15.5.0/dist/esm/styles/prism?bundle",
+            "react-syntax-highlighter/": "https://aistudiocdn.com/react-syntax-highlighter@^16.1.0/"
+          }
+        }
+    </script>
+  <script type="module" crossorigin src="/assets/index-DULsHs6a.js"></script>
 </head>
-<body>
-<h1>My Blog</h1>
-<p>Welcome to my blog</p>
-<img src="/default-cover.png" alt="My Blog" />
+
+<body class="bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-200">
+<div id="root"></div>
 </body>
 </html>
