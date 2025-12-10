@@ -21,7 +21,7 @@
     const isStatic = currentUrl.includes("/static/");
     if (isStatic) 
     {
-      const newUrl = currentUrl.replace("/static/","/dynamic/");
+      const newUrl = currentUrl.replace("/static/","#/dynamic/");
       window.location.replace(newUrl); // redirect đến URL chuẩn
     }
   }
