@@ -18,7 +18,7 @@
   if (typeof window !== 'undefined') 
   {
     const currentUrl = window.location.href;
-    const isStatic = currentUrl.includes('/static_posts/');
+    const isStatic = currentUrl.includes("/static_posts/");
     if (!isStatic) 
     {
       const newUrl = currentUrl.replace("/static_posts/","/posted/") ;
