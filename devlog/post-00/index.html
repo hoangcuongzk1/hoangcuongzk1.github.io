@@ -18,10 +18,10 @@
   if (typeof window !== 'undefined') 
   {
     const currentUrl = window.location.href;
-    const isStatic = currentUrl.includes("/static/");
+    const isStatic = currentUrl.includes("/devlog/");
     if (isStatic) 
     {
-      const newUrl = currentUrl.replace("/static/","#/dynamic/");
+      const newUrl = currentUrl.replace("/devlog/","#/dynamic/");
       window.location.replace(newUrl); // redirect đến URL chuẩn
     }
   }
