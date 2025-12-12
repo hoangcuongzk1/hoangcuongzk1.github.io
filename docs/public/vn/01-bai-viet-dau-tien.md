@@ -11,13 +11,7 @@ tags:
 ---
 # Lý do trang web này tồn tại
 ---
-Chào bạn, mình là Cường.
-Mình bắt đầu hành trình làm Game từ năm 2021. Tính tới nay cũng gần 5 năm rồi. Trong suốt quãng thời gian này, điều quý giá nhất mà mình cảm thấy bản thân học được là khả năng "tự học" (chủ yếu là lang thang trên internet mà thoy 🫠).
-
-Và mình cũng tự học, tự làm liên tục trong khoảng 3 năm trở lại đây rồi. Quả thực thì quãng thời gian này buồn, chán nhiều hơn là vui. Có lẽ là do con đường mình chọn nó không trùng với đại đa số anh em, đồng nghiệp xung quanh. Nhìn chung là cũng hơi "dại" 😂.
-Nhưng thoy, kệ đi.
-
-> Lỡ đâm lao thì phải theo lao thoy !
+Hello 
 
 ## Tái hoà nhập cộng đồng
 Vâng, và đó cũng là lý do chính, làm một mình hoài, đôi khi vừa chán, vừa không biết mình đang ở đâu. Cảm giác lúc nào cũng như con ếch ngồi ở đáy giếng vậy.
@@ -33,55 +27,18 @@ Cái vụ này thì các bạn lướt web hay xem diễn giả họ cũng đề
 ## Lan toả giá trị 😆
 Trước đây và tới hiện tại, bản thân mình vẫn luôn tìm kiếm những blog, website,... của những dev có kinh nghiệm trong ngành. Mình học hỏi từ những nguồn như vậy rất nhiều.
 
-Nhưng để tìm kiếm các nguồn như vậy bằng tiếng việt thì tương đối hiếm. Dĩ nhiên tài liệu tiếng anh nhiều hơn rồi, nhưng mình hiện đang sinh sống và làm việc tại Việt Nam, nên nếu có thì mình vẫn muốn đọc từ các anh em nhà mềnh hơn. Cách diễn giải, văn phong gần gũi của tiếng mẹ đẻ khiến mình cảm thấy việc tiếp thu nó nhanh chóng hơn.
-
-Gần đây thì có chatGPT. Nó cũng là một cái gì đó rất là tiện ích cho việc "tra cứu". Nhưng cái gì cũng có 2 mặt. Lợi ích của nó thì phải để thời gian chứng minh, hiện tại thì mình thấy "thất nghiệp" nhiều hơn ngày xưa, nên mình ít đồng nghiệp hơn, khó tìm kiếm bạn bè cùng ngành hơn 🙃... z z Z.
-
 
 # Nội dung các bài viết sẽ đề cấp tới những gì ?
 ---
-Mình cũng có đọc kha khá các website dạng này(blog) của nhiều đàn anh đi trước, cả trong và ngoài nước. Thì mình thấy nội dung của các blog thường khá đa dạng, nó thường gắn liền với cuộc sống xung quanh người viết.
+Chà, nội dung sẽ khá đa dạng vì nó xoay quanh cuộc sống của tôi. Nhưng phần lớn nội dung trong thời gian sắp tới sẽ tập trung vào những kiến thức mà tôi đang học và tìm hiểu, cũng như cuộc sống hàng ngày của tôi.
 
-Bản thân cuộc sống cá nhân của mình thì không có nhiều khía cạnh thú vị như họ. Mình chỉ sáng ngủ dậy -> ngồi máy tính tới tối -> ngủ. (dĩ nhiên là không làm việc 100% trong khoảng này đâu 🙂‍↔️). Chính vì thế, nội dung các bài viết, trước mắt thì mình chỉ tập trung vào nội dung chuyên môn lập trình Game thôi. Và vì lẽ đó nên sub-domain của website này là `devlog`.
+Hiện tại, tại thời điểm tôi đang bắt đầu xây dựng trang web này, tôi đang khá hứng thú với:
+- [Rust Programming Language](https://rust-lang.org/) 
+- [Home \| Vulkan \| Cross platform 3D Graphics](https://www.vulkan.org/)
 
-Trong các bài viết sắp tới thì sẽ tập trung vào các chủ đề xoay quanh Unity như:
-- C# 
-- Code Gen
-- ECS
-- shader
-- optimize(chủ yếu là các vấn đề Runtime khi làm việc với 3d + ecs)
-- ...
+Nền tảng kiến thức hiện tại của tôi phần lớn là Unity và C#. Nên nội dung các bài viết sắp tới, khả năng cao sẽ xoay quanh 3 chủ đề này.
 
-Trong quãng thời gian tới này, mình cũng có một vài project vẫn dùng Unity, nên coi như một công đôi việc. 
-
-# Đối tượng độc giả
+# Tần suất lên bài
 ---
-Khi viết tài liệu về những lĩnh vực kỹ thuật, cái khó nhất là viết để "người đọc hiểu được", cái khó hơn cả cái khó thứ nhất là "người viết phải hiểu" mình đang viết cái gì 🙄.
-
-Bản thân mình trước đây cũng vấp phải tình trạng "nhảy cóc", thiếu kiến thức cơ bản trầm trọng nhưng vẫn ham hố tìm đọc những tài liệu phức tạp, bỏ thời gian công sức để giải quyết những giải pháp không bao giờ có cơ hội dùng tới(thường là do deadline, code chạy đã tối ưu sau).
-
-Quãng thời gian "nhảy cóc" đó có lãng phí không ? Câu trả lời(chủ quan) là KHÔNG. Tuy chưa dùng được ngay nhưng nó là của đề dành. Là tài sản, là đòn bẩy để mình luôn có lý do để thức dậy mỗi ngày.
-
-> Giá trị của một khoá học có thể quy ra tiền được nhưng giá trị của kiến thức trong đầu bạn thì chỉ có thời gian mới trả lời được.
-
-Chính vì lẽ đó, nội dung các bài viết sẽ không cố định mức độ, khối lượng kiến thức cần trang bị để có thể hiểu. Chúng có thể là một cái tip nho nhỏ để giảm `allocation`, một cách triển khai pattern đơn giản để giải quyết một bài toán đặc thù, vv...
-
-Nhưng nói gì thì nói, mình viết để mình đọc nữa nên mình sẽ cố gắng phân loại bại viết theo #tag:
-- `low-level`: thường sử dụng API cấp thấp(code khó đọc)
-- `high_level`: abstract API, các model, func đã được build sẵn có tính ứng dụng cao(code dễ hiểu, dễ đọc).
-
-Và không có `middle_level`, vì đơn giản cái gì ko `low` thì nó nên là `high` rồi. 
-# Cam kết "mỏng" & kết bài
----
-## Tần suất lên bài
 Thường thì thời gian lên bài sẽ không cố định, nhưng sẽ cố gắng lên ít nhất là 12 bài/năm.
-
-## Chất lượng bài viết
-Thường thì khi viết xong 1 bài thì mình sẽ `deploy` để check xem có lỗi render gì không, sau đó bắt đầu làm mịn nội dung và bố cục bài viết. Mục đích là để các bạn khi đọc sẽ "mượt" hơn. Nhìn hấp dẫn hơn. 
-
-Nhưng thân mình cũng chỉ là "coder", nên không đảm bảo mọi bài viết đều có hình minh hoạ bắt mắt, video này nọ được. Kiểu bị "lười" ấy 😔.
-
-Dù sao thì cũng hi vọng các bạn tìm thấy điều gì đó hữu ích nơi đây, các bạn vui thì mình phấn khởi 🙂‍↔️.
-
-Nhưng không sao, thi thoảng rảnh mình vẫn sẽ update để nội dung nhìn ổn hơn, nên nếu các bạn muốn góp ý thì 👇👇👇.
 
