@@ -14,7 +14,6 @@
 <meta name="twitter:description" content="Why This Website Exists, and What It Will Contain.">
 <meta name="twitter:image" content="https://cdn11.bigcommerce.com/s-8e25iavqdi/images/stencil/1280x1280/products/121929/138853/the-hobbit-an-unexpected-journey-4-cover-art-sticker-ACF054879__04107.1650926362.jpg?c=2">
 <script>
-  // Nếu đang chạy trên trình duyệt, redirect đến URL chuẩn
   if (typeof window !== 'undefined') 
   {
     const currentUrl = window.location.href;
@@ -22,7 +21,7 @@
     if (isStatic) 
     {
       const newUrl = currentUrl.replace("/devlog/","#/dynamic/");
-      window.location.replace(newUrl); // redirect đến URL chuẩn
+      window.location.replace(newUrl);
     }
   }
 </script>

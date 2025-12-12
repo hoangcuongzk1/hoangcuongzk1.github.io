@@ -14,7 +14,6 @@
 <meta name="twitter:description" content="Test Post Rendering from markdown to HTML.">
 <meta name="twitter:image" content="https://i.pinimg.com/originals/82/71/47/82714763ab84910774a889d31ca8e4c1.gif">
 <script>
-  // Nếu đang chạy trên trình duyệt, redirect đến URL chuẩn
   if (typeof window !== 'undefined') 
   {
     const currentUrl = window.location.href;
@@ -22,7 +21,7 @@
     if (isStatic) 
     {
       const newUrl = currentUrl.replace("/devlog/","#/dynamic/");
-      window.location.replace(newUrl); // redirect đến URL chuẩn
+      window.location.replace(newUrl);
     }
   }
 </script>
