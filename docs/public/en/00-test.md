@@ -14,9 +14,57 @@ tags:
 
 ```img_compare
 - [txt 1](https://i.pinimg.com/736x/e2/0e/a0/e20ea012621fe94bf9d23612230c0e2c.jpg)
-- [txt 2](https://i.pinimg.com/originals/82/71/47/82714763ab84910774a889d31ca8e4c1.gif)
+- [txt 2](https://i.pinimg.com/736x/85/be/f9/85bef94fc6080269ca9345737a5aa16e.jpg)
 ```
 
+## Mermaid
+```mermaid
+erDiagram
+
+CUSTOMER ||--o{ ORDER : places
+
+ORDER ||--|{ ORDER_ITEM : contains
+
+PRODUCT ||--o{ ORDER_ITEM : includes
+
+CUSTOMER {
+
+string id
+
+string name
+
+string email
+
+}
+
+ORDER {
+
+string id
+
+date orderDate
+
+string status
+
+}
+
+PRODUCT {
+
+string id
+
+string name
+
+float price
+
+}
+
+ORDER_ITEM {
+
+int quantity
+
+float price
+
+}
+```
 ## link video
 
 ![youtube link cham than](https://www.youtube.com/watch?v=QfdT9U9p0cU&list=RDMMQfdT9U9p0cU&start_radio=1)

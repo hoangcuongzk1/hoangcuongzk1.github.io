@@ -1,3 +1,4 @@
 slug,title,date,tags,excerpt,lang,fileName,cover
+post-02,2 - MVVM architecture,2025-12-12T03:26:00,y2025|architectural_pattern,What is the MVVM architecture ?,en,02-mvvm-en.md,https://media.licdn.com/dms/image/v2/D5612AQHu70XCF6vjYg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1697751716765?e=1767225600&v=beta&t=vFxwh802jCamIg0MXayY5ZIfpVF-HKaoTkyD-IWFX84
 post-01,1 - First Post,2025-12-09T01:15:00,y2025|just_talk,"Why This Website Exists, and What It Will Contain.",en,01-first-post.md,https://cdn11.bigcommerce.com/s-8e25iavqdi/images/stencil/1280x1280/products/121929/138853/the-hobbit-an-unexpected-journey-4-cover-art-sticker-ACF054879__04107.1650926362.jpg?c=2
 post-00,0 - Test Post Rendering,2025-12-08T01:26:00,y2025|test,Test Post Rendering from markdown to HTML.,en,00-test.md,https://i.pinimg.com/originals/82/71/47/82714763ab84910774a889d31ca8e4c1.gif

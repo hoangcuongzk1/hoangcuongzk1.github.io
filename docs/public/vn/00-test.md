@@ -17,6 +17,54 @@ tags:
 - [txt 2](https://i.pinimg.com/736x/85/be/f9/85bef94fc6080269ca9345737a5aa16e.jpg)
 ```
 
+## Mermaid
+```mermaid
+erDiagram
+
+CUSTOMER ||--o{ ORDER : places
+
+ORDER ||--|{ ORDER_ITEM : contains
+
+PRODUCT ||--o{ ORDER_ITEM : includes
+
+CUSTOMER {
+
+string id
+
+string name
+
+string email
+
+}
+
+ORDER {
+
+string id
+
+date orderDate
+
+string status
+
+}
+
+PRODUCT {
+
+string id
+
+string name
+
+float price
+
+}
+
+ORDER_ITEM {
+
+int quantity
+
+float price
+
+}
+```
 ## link video
 
 ![youtube link cham than](https://www.youtube.com/watch?v=QfdT9U9p0cU&list=RDMMQfdT9U9p0cU&start_radio=1)
