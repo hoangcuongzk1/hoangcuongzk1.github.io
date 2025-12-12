@@ -2,7 +2,7 @@
 title: 2 - MVVM architecture
 creation date: 2025-12-12T03:26:00
 slug: post-02
-excerpt: What is the MVVM architecture ?
+excerpt: What is the MVVM architecture ? How to use MVVM ?
 lang: en
 cover img: https://media.licdn.com/dms/image/v2/D5612AQHu70XCF6vjYg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1697751716765?e=1767225600&v=beta&t=vFxwh802jCamIg0MXayY5ZIfpVF-HKaoTkyD-IWFX84
 tags:
@@ -111,7 +111,6 @@ e6@{animate: true}
 
 
 # References
-
-- Model–view–viewmodel — Wikipedia
-- Patterns — _WPF Apps With The Model-View-ViewModel Design Pattern_ (Microsoft Learn)
-- _Introduction to MVC and MVVM patterns with JavaScript_ — Bilal Sevinc
+- [Model–view–viewmodel - Wikipedia](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel)
+- [Patterns - WPF Apps With The Model-View-ViewModel Design Pattern \| Microsoft Learn](https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/february/patterns-wpf-apps-with-the-model-view-viewmodel-design-pattern)
+- [Introduction to MVC and MVVM patterns with JavaScript](https://www.linkedin.com/pulse/introduction-mvc-mvvm-patterns-javascript-bilal-sevinc-zqcfc/)
