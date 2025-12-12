@@ -14,7 +14,7 @@ tags:
 ## Observing and Improving Myself
 Working alone means there’s no one around to evaluate my workflow or give feedback on the quality of what I create. When note-taking is purely personal, laziness can easily overpower discipline.
 
-By putting my thoughts, reflections, and research out in public, I’m giving myself a subtle form of accountability — a commitment I have to honor. Otherwise, I’d be losing credibility and battling my own conscience. *As the saying goes, “Character is what you do when no one is watching.”* (Châm ngôn dùng để diễn đạt ý tương tự.)
+By putting my thoughts, reflections, and research out in public, I’m giving myself a subtle form of accountability — a commitment I have to honor. Otherwise, I’d be losing credibility and battling my own conscience. *As the saying goes, “Character is what you do when no one is watching.”* 
 
 ## Sharing Value
 Both in the past and now, I constantly seek out blogs and websites run by experienced developers. I’ve learned a great deal from such sources.
