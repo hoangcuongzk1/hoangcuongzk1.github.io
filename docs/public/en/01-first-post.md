@@ -10,83 +10,27 @@ tags:
   - just_talk
 ---
 # Why This Website Exists
-
 ---
+## Observing and Improving Myself
+Working alone means there’s no one around to evaluate my workflow or give feedback on the quality of what I create. When note-taking is purely personal, laziness can easily overpower discipline.
 
-Hello there, I'm Cuong.  
-I began my journey in game development back in 2021. It has been almost five years now, and the most valuable thing I’ve learned throughout this period is the ability to **self-learn**—which, to be honest, mostly means wandering around the Internet 🫠.
+By putting my thoughts, reflections, and research out in public, I’m giving myself a subtle form of accountability — a commitment I have to honor. Otherwise, I’d be losing credibility and battling my own conscience. *As the saying goes, “Character is what you do when no one is watching.”* (Châm ngôn dùng để diễn đạt ý tương tự.)
 
-Over the past three years, I’ve been learning and building things on my own nonstop. To be frank, this stretch has brought more frustration than joy. Perhaps because the path I chose doesn’t quite align with what most colleagues or friends around me follow. In short, it’s a bit… “reckless” 😂.  
-But well, it is what it is.
+## Sharing Value
+Both in the past and now, I constantly seek out blogs and websites run by experienced developers. I’ve learned a great deal from such sources.
 
-> Once you've taken the plunge, you might as well keep swimming.
+I hope you’ll find something useful here as well.
 
-## Reconnecting With the Community
-
-And that’s the main reason behind all this. Working alone for too long sometimes leaves me feeling both bored and lost—like a frog sitting at the bottom of a well, unsure of what lies outside.
-
-That’s why I decided to build this website—to occasionally publish something whenever I’m free. My hope is that it’ll help me **reconnect with the community** 🥲. By putting myself out there, I’ll naturally have more chances to meet and interact with others, and maybe this little “well” of mine will start blooming a bit.
-
-## Self-Reflection and Personal Growth
-Working solo means no one is around to give feedback or evaluate the quality and efficiency of what I do. And when notes or documentation are kept privately, laziness tends to defeat discipline.
-
-So by sharing my thoughts and research publicly, I’m indirectly forcing myself to uphold a certain level of responsibility. Failing to do so would cost me credibility—and probably guilt too 🙃.
-
-You’ll often hear speakers or bloggers mention this idea, but ultimately, it depends on each person’s circumstances. As for me, well… I usually wait until the water is up to my neck before I start swimming.
-
-## Spreading Value 😆
-In the past—and even now—I often look for blogs or websites run by experienced developers. I’ve learned a lot from such sources.
-
-Recently, there’s ChatGPT, which is incredibly useful as a “lookup tool.” But every tool has two sides. While it's convenient, I also feel like the industry is seeing more “unemployment” than before. That means fewer colleagues to talk to… fewer peers to connect with 🙃… z z Z.
-
-# What Will the Articles Be About?
+# What Topics Will These Posts Cover?
 ---
-After reading quite a few similar blogs—both local and international—I’ve noticed that their content tends to be diverse, usually revolving around the writer’s personal experiences.
+The content will be quite diverse since it revolves around my own journey. However, in the near future, most posts will focus on what I’m currently learning, exploring, and experiencing in daily life.
 
-My daily life is far less colorful compared to theirs. My routine is basically: wake up → sit at the computer until night → sleep. (Of course, it’s not 100% work time 🙂‍↔️).  
-So for now, I’ll focus mainly on **game development topics**, which is why the website uses the sub-domain `devlog`.
+Right now, as I’m building this website, I’m particularly excited about:
+- [Rust Programming Language](https://rust-lang.org/)
+- [Vulkan — Cross-Platform 3D Graphics](https://www.vulkan.org/)
 
-Upcoming posts will revolve around Unity, including:
+My foundation is mostly in Unity and C#, so upcoming posts will likely revolve around these three areas.
 
-- C#
-- Code Generation
-- ECS
-- Shaders
-- Optimization (mainly runtime issues in 3D + ECS)
-- ...
-I also have several Unity-based projects coming up, so this is a two-birds-one-stone situation.
-
-# Target Audience
+# Posting Frequency
 ---
-When writing technical material, the biggest challenge is “making the reader understand.” But an even greater challenge is ensuring **the writer truly understands** what they’re explaining 🙄.
-
-I used to jump ahead a lot too—skipping fundamentals and diving straight into complex topics, investing time into solutions I never actually used later (usually because of deadlines or because the existing system was already optimized enough).
-
-Was that time wasted?  
-My (very subjective) answer: **No.**  
-Even if I couldn’t apply it immediately, it became “savings”—knowledge stored for the future, a form of leverage that keeps me motivated day after day.
-
-> The cost of a course can be measured in money, but the value of the knowledge in your mind can only be answered by time.
-
-For that reason, the depth and difficulty of my articles will vary. Some might be small tips to reduce **allocations**, while others could be simple pattern implementations for specific problems, and so on.
-
-But since I also write for myself, I’ll try to categorize posts using #tags:
-
-- `low-level`: uses low-level APIs (harder to read code)
-    
-- `high-level`: abstract APIs, pre-built models/functions with high usability (easy to read and understand)
-    
-
-There’s no `middle_level` because, honestly, anything not “low” might as well be “high.”
-# A Light Commitment & Closing Words
----
-## Posting Frequency
-There’s no strict schedule, but I’ll try to publish at least **12 posts a year**.
-
-## Content Quality
-After finishing a post, I usually `deploy` it first to check for any rendering issues, then come back to refine the content and structure. The goal is to make your reading experience as smooth and pleasant as possible.
-
-But I’m just a coder, so I can’t guarantee fancy visuals, diagrams, or videos. Sometimes I’m just… lazy 😔.
-
-Still, I hope you find something useful here. If you enjoy the content, that alone keeps me motivated 🙂‍↔️.  
-I’ll continue updating posts whenever I can, and if you’d like to share feedback, feel free to reach out 👇👇👇.
+There isn’t a fixed schedule, but I’ll aim to publish at least 12 posts a year.
