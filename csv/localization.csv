@@ -4,7 +4,7 @@ home_page,"Home","Trang chủ"
 latest_thoughts,"hoangcuongzk1 blog","hoangcuongzk1 blog"
 search_placeholder,Search posts...,Tìm kiếm bài viết...
 no_posts_found,No posts found matching your criteria.,Không tìm thấy bài viết nào phù hợp.
-back_to_posts,Back to posts,Quay lại
+back_to_posts,"Home","Trang chủ"
 thanks_reading,"Thanks for reading, good day !","Cảm ơn bạn vì đã đọc, chúc bạn một ngày tốt lành !" 
 check_out_other,"The content you’re reading is not the *final* version. It may be updated later for smoother flow, clearer expression, and more accurate technical analysis. If you’d like to share feedback and help me improve this site, feel free to reach out through the links below. 👇👇👇","Nội dung các bài viết bạn đang đọc chưa phải `final`, có thể sẽ được update để văn phong mượt mà, trôi chảy hơn, cũng như là check lỗi chính tả và các lỗi phân tích chuyên môn trong nội dung của bài viết. Nếu bạn muốn góp ý để cùng mình hoàn thiện trang thì đừng ngại liên hệ với mình thông qua các link 👇👇👇"
 all_tags,All,Tất cả
@@ -16,6 +16,8 @@ sort_desc,Newest,Mới nhất
 sort_asc,Oldest,Cũ nhất
 table_of_contents,Table of Contents,Mục lục
 copied,link copied!,link copied!
+next_post,Next Post,Bài viết tiếp theo
+previous_post, Previous Post,Bài viết trước
 January,January,tháng Một
 February,February,tháng Hai
 March,March,tháng Ba
