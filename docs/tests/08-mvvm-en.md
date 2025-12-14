@@ -1,7 +1,7 @@
 ---
 title: 2 - MVVM architecture
 creation date: 2025-12-12T03:26:00
-slug: post-02
+slug: post-08
 series: tech-talk
 excerpt: What is the MVVM architecture ? How to use MVVM ?
 lang: en

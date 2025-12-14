@@ -6,12 +6,16 @@ search_placeholder,Search posts...,Tìm kiếm bài viết...
 no_posts_found,No posts found matching your criteria.,Không tìm thấy bài viết nào phù hợp.
 back_to_posts,"Home","Trang chủ"
 thanks_reading,"Thanks for reading, good day !","Cảm ơn bạn vì đã đọc, chúc bạn một ngày tốt lành !" 
-check_out_other,"The content you’re reading is not the *final* version. It may be updated later for smoother flow, clearer expression, and more accurate technical analysis. If you’d like to share feedback and help me improve this site, feel free to reach out through the links below. 👇👇👇","Nội dung các bài viết bạn đang đọc chưa phải `final`, có thể sẽ được update để văn phong mượt mà, trôi chảy hơn, cũng như là check lỗi chính tả và các lỗi phân tích chuyên môn trong nội dung của bài viết. Nếu bạn muốn góp ý để cùng mình hoàn thiện trang thì đừng ngại liên hệ với mình thông qua các link 👇👇👇"
+check_out_other,"The content you’re reading may not the final version. It may be updated later for smoother flow, clearer expression, and more accurate technical analysis. If you’d like to share feedback and help me improve this site, feel free to reach out through the links below. 👇👇👇","Nội dung bài viết có thể: văn phong chưa được mượt mà, trôi chảy, cũng như là các lỗi chính tả, phân tích chuyên môn,...vv. Nếu bạn muốn góp ý để cùng mình hoàn thiện trang thì đừng ngại liên hệ với mình thông qua các link 👇👇👇"
 all_tags,All,Tất cả
-subtitle,"Happiness grows when shared, and sorrow shrinks when shared.","Chia sẻ làm nhân đôi niềm vui và vơi đi một nửa nỗi buồn."
+subtitle,"Happiness grows when shared, and sorrow shrinks when shared.","Chia sẻ giúp chúng ta nhân đôi niềm vui và vơi đi một nửa nỗi buồn."
 footer_text,Built with React & TypeScript.,Xây dựng = React & TypeScript.
 loading,Loading...,Đang tải...
 read_more,Read more,Đọc thêm
+view_series,Series,Theo chủ đề
+other_posts,Other Posts,Bài viết khác
+by_time,By Date,Theo thời gian
+pick_post_to_start,"Please pick a post to start the journey.","Hãy chọn một bài viết để bắt đầu hành trình."
 sort_desc,Newest,Mới nhất
 sort_asc,Oldest,Cũ nhất
 table_of_contents,Table of Contents,Mục lục
