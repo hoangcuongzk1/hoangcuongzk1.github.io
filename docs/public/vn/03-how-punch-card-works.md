@@ -1,6 +1,6 @@
 ---
 title: Máy tính đục lỗ - punch card
-creation date: 2025-12-09T01:26:00
+creation date: 2025-12-13T05:56:00
 slug: post-03
 series: computer-hardwares
 excerpt: Cách máy tính đục lỗ - punch card hoạt động.
