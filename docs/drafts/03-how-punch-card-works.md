@@ -10,7 +10,7 @@ tags:
   - hardware
 ---
 
-# Mở bài
+# Nguồn gốc
 Trước khi đi vào cách một máy tính đục lỗ hoạt động ra sao, ta cần phải tìm hiểu xem nguồn gốc của punched card(thẻ đục lỗ) có từ đâu.
 
 

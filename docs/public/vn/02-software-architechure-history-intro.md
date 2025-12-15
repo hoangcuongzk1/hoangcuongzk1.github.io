@@ -8,7 +8,6 @@ lang: vn
 cover img: https://novedge.com/cdn/shop/articles/e3d3d9a1c9341397c10279b5b9071e4f_1024x1024.png?v=1722238894
 tags:
   - software-architecture
-  - index
 ---
 # Mở bài
 
