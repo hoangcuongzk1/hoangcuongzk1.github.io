@@ -7,7 +7,6 @@ excerpt: Test Post Rendering from markdown to HTML.
 lang: en
 cover img: https://i.pinimg.com/originals/82/71/47/82714763ab84910774a889d31ca8e4c1.gif
 tags:
-  - y2025
   - test
 ---
 

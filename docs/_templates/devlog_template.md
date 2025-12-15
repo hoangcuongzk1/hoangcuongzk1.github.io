@@ -2,6 +2,7 @@
 title: Post Title
 creation date: 2025-12-09T01:26:00
 slug: post-number
+series:
 excerpt: summary
 lang: vn
 cover img: link to cover img
