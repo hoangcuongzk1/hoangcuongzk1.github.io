@@ -24,7 +24,6 @@ I hope you will find something useful here.
 
 > *“If I have seen further, it is by standing on the shoulders of giants.”*  
 > — Isaac Newton  
-> *(Used here to convey the idea of learning from experienced predecessors.)*
 
 
 ## A Personal Knowledge Library
