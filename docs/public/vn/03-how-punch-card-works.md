@@ -13,7 +13,7 @@ tags:
 # Nguồn gốc
 Trước khi đi vào cách một máy tính đục lỗ hoạt động ra sao, ta cần phải tìm hiểu xem nguồn gốc của punched card(thẻ đục lỗ) có từ đâu.
 
-
+![cách máy dệt hoạt động](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-03/visual_weaving_machine.gif?raw=true)
 
 
 [How a "punch card" weaving machine, invented by Joseph Jacquard in 1801, worked - YouTube](https://www.youtube.com/watch?v=qG-OXlIQgZo)
