@@ -74,6 +74,9 @@ At the time of building this website, I am particularly interested in:
 - [Vulkan | Cross-platform 3D Graphics](https://www.vulkan.org/)
 
 My current technical foundation is mainly in `C++`, `C#`, and `Unity`. As a result, upcoming articles will most likely revolve around these three areas.
+- 1. Rust
+- 2. Vulkan
+- 3. C++, C#, Unity
 
 Some readers might ask: *“So how about this website—did you build it with C++?”*  
 - The answer is no. I use `React + Tailwind`. I am not deeply specialized in them—just proficient enough to build a small static website. Therefore, I do not consider them part of my core expertise.

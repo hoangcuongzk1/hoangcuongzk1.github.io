@@ -62,6 +62,9 @@ Hiện tại, tại thời điểm tôi đang bắt đầu xây dựng trang web
 - [Home \| Vulkan \| Cross platform 3D Graphics](https://www.vulkan.org/)
 
 Nền tảng kiến thức hiện tại của tôi phần lớn là `C++`, `C#` và `Unity`. Nên nội dung các bài viết sắp tới, khả năng cao sẽ xoay quanh chủ yếu 3 chủ đề này.
+- 1. Rust
+- 2. Vulkan
+- 3. C++, C#, Unity
 
 Chắc một số bạn đọc sẽ hỏi là "ủa trang web này thì sao ? Bộ khứa này build bằng C++ à !?".
 - Tôi dùng `React + Tailwind`, nhưng tôi không chuyên sâu về chúng, chỉ đủ để tự xây một trang web tĩnh nhỏ thôi. Nên không thể coi là kiến thức nền tảng được.
