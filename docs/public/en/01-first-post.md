@@ -9,28 +9,77 @@ cover img: https://cdn11.bigcommerce.com/s-8e25iavqdi/images/stencil/1280x1280/p
 tags:
   - talk
 ---
+
 # Why This Website Exists
+
+## Spreading Value
+
+In the past—and even now—I have always been searching for blogs and websites that offer insightful knowledge curated by **skilled practitioners**. I have learned a great deal from such sources.
+
+Personally, I prefer reading documentation to watching videos. When reading, information is absorbed faster and in greater volume.
+
+Of course, videos with visuals and animations can help us grasp ideas more quickly. However, based on over a decade of browsing experience, I can confidently say that a **reliable, well-written textual resource**, complemented by images, links, and GIFs, is far more time-efficient and effective.
+
+I hope you will find something useful here.
+
+> *“If I have seen further, it is by standing on the shoulders of giants.”*  
+> — Isaac Newton  
+> *(Used here to convey the idea of learning from experienced predecessors.)*
+
+
+## A Personal Knowledge Library
+
+Since developing the habit of taking notes, I initially wrote everything by hand in notebooks. After getting my own computer, I switched to Google Docs. At work, I used Notion and Jira (Atlassian). Over the past three years, I have mainly used Obsidian.
+
+What I appreciate most about Obsidian is its document management based on `markdown` files. For a programmer, Markdown provides nearly everything needed for technical documentation.
+
+All of these tools are excellent—especially Obsidian combined with Git, which is both powerful and free. However, syncing smoothly with mobile devices is still somewhat inconvenient, so I continue to use Notion alongside Obsidian.
+
+That said, Obsidian can sometimes feel *too powerful*—I am unable to fully utilize all its features. Notion, on the other hand, limits default font customization and is not entirely free.
+
+To be honest, I am still not fully satisfied with how these tools organize and retrieve information. What I truly need is just the **core functionality** of a personal knowledge library:
+
+- Create, delete, and edit notes  
+- Filter and aggregate content  
+- Fast search  
+- Render basic content formats  
+- Bilingual support for language learning  
+- Cross-device synchronization  
+- Easy sharing of one or multiple documents  
+
+That’s it—nothing more.
+
+The system should be minimal, as minimal as possible 🫠. The ultimate purpose of a personal library is **speed**: when I need something, I should be able to find it instantly. Even years later, one glance should be enough to know what a document is about.
+
+For this reason, I decided to build this website myself. The public version is a *shared* space, while the private version is a bundled app that I maintain separately and partially synchronize with this site.
+
+
+## Self-Observation and Continuous Improvement
+
+It has been quite a while since I have been studying and working entirely on my own.
+
+Because I work independently, there is no one to regularly evaluate the quality or effectiveness of my work. When note-taking is kept purely private, laziness can sometimes overpower discipline.
+
+Therefore, making my thoughts and research public becomes a way of indirectly forcing myself to stay accountable. If I fail to follow through, I feel a sense of lost credibility and personal guilt 🙃—a rather unconventional learning method, perhaps.
+
+
 ---
-## Observing and Improving Myself
-Working alone means there’s no one around to evaluate my workflow or give feedback on the quality of what I create. When note-taking is purely personal, laziness can easily overpower discipline.
 
-By putting my thoughts, reflections, and research out in public, I’m giving myself a subtle form of accountability — a commitment I have to honor. Otherwise, I’d be losing credibility and battling my own conscience. *As the saying goes, “Character is what you do when no one is watching.”* 
+## What Will the Articles Be About?
 
-## Sharing Value
-Both in the past and now, I constantly seek out blogs and websites run by experienced developers. I’ve learned a great deal from such sources.
+The content will be quite diverse, as it revolves around my own life. However, in the near future, most articles will focus on what I am currently learning and exploring, as well as aspects of my daily life.
 
-I hope you’ll find something useful here as well.
+At the time of building this website, I am particularly interested in:
 
-# What Topics Will These Posts Cover?
----
-The content will be quite diverse since it revolves around my own journey. However, in the near future, most posts will focus on what I’m currently learning, exploring, and experiencing in daily life.
+- [The Rust Programming Language](https://rust-lang.org/)  
+- [Vulkan | Cross-platform 3D Graphics](https://www.vulkan.org/)
 
-Right now, as I’m building this website, I’m particularly excited about:
-- [Rust Programming Language](https://rust-lang.org/)
-- [Vulkan — Cross-Platform 3D Graphics](https://www.vulkan.org/)
+My current technical foundation is mainly in `C++`, `C#`, and `Unity`. As a result, upcoming articles will most likely revolve around these three areas.
 
-My foundation is mostly in Unity and C#, so upcoming posts will likely revolve around these three areas.
+Some readers might ask: *“So how about this website—did you build it with C++?”*  
+- The answer is no. I use `React + Tailwind`. I am not deeply specialized in them—just proficient enough to build a small static website. Therefore, I do not consider them part of my core expertise.
 
-# Posting Frequency
----
-There isn’t a fixed schedule, but I’ll aim to publish at least 12 posts a year.
+
+## Posting Frequency
+
+The posting schedule will not be fixed, but I aim to publish **at least 12 articles per year**.
