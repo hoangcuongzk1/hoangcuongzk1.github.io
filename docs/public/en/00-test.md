@@ -1,5 +1,5 @@
 ---
-title: 0 - Test Post Rendering
+title: Test Post Rendering
 creation date: 2025-12-08T01:26:00
 slug: post-00
 series: debug

@@ -1,9 +1,9 @@
 ---
-title: 0 - Markdown rendering
+title: Markdown rendering
 creation date: 2025-12-08T01:26:00
 slug: post-00
 series: debug
-excerpt: Thử nghiệm convert markdown -> HTML.
+excerpt: Convert markdown -> HTML.
 lang: vn
 cover img: https://i.pinimg.com/originals/82/71/47/82714763ab84910774a889d31ca8e4c1.gif
 tags:

@@ -1,4 +1,4 @@
 slug,series,title,date,tags,excerpt,lang,fileName,cover
 post-02,software-architectures,Dòng chảy lịch sử,2025-12-14T03:26:00,software-architecture|index,Quá trình hình thành của các kiến trúc phần mềm.,vn,02-software-architechure-history-intro.md,https://novedge.com/cdn/shop/articles/e3d3d9a1c9341397c10279b5b9071e4f_1024x1024.png?v=1722238894
 post-01,talk,Khởi đầu,2025-12-09T01:26:00,talk,"Lý do trang web này tồn tại, các nội dung mà trang sẽ có.",vn,01-first-post.md,https://cdn11.bigcommerce.com/s-8e25iavqdi/images/stencil/1280x1280/products/121929/138853/the-hobbit-an-unexpected-journey-4-cover-art-sticker-ACF054879__04107.1650926362.jpg?c=2
-post-00,debug,0 - Markdown rendering,2025-12-08T01:26:00,test,Thử nghiệm convert markdown -> HTML.,vn,00-test.md,https://i.pinimg.com/originals/82/71/47/82714763ab84910774a889d31ca8e4c1.gif
+post-00,debug,Markdown rendering,2025-12-08T01:26:00,test,Convert markdown -> HTML.,vn,00-test.md,https://i.pinimg.com/originals/82/71/47/82714763ab84910774a889d31ca8e4c1.gif
