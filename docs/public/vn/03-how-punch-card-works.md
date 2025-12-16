@@ -13,27 +13,44 @@ tags:
 # Nguồn gốc
 Trước khi đi vào cách một máy tính đục lỗ hoạt động ra sao, ta cần phải tìm hiểu xem nguồn gốc của punched card(thẻ đục lỗ) có từ đâu.
 
-![cách máy dệt hoạt động](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-03/visual_weaving_machine.gif?raw=true)
+Ứng dụng cơ khi đầu tiên của thẻ đục lỗ có từ năm 1804, đó là phát minh máy dệt của [Jacquard machine - Wikipedia](https://en.wikipedia.org/wiki/Jacquard_machine).
 
+## Cách hoạt động của máy dệt Jacquard
 
-[How a "punch card" weaving machine, invented by Joseph Jacquard in 1801, worked - YouTube](https://www.youtube.com/watch?v=qG-OXlIQgZo)
-
-![Cách sử dụng máy tính thẻ đục lỗ](https://www.youtube.com/watch?v=UiVAq3nwD0M)
+| ![các thẻ dệt của máy](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-03/punch_card_weaving_machine.gif?raw=true) | ![các sợi được đan theo nhiều hàng khác nhau](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-03/visual_weaving_machine.gif?raw=true) |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+Mỗi thẻ đại diện cho **1 hàng dệt**.
 
 ```mermaid
 flowchart LR
-    A[Người vận hành] --> B[Đục lỗ dữ liệu<br/>Punch Card]
-    B --> C[Card Reader<br/>Đọc thẻ]
-    C --> D[Giải mã lỗ đục<br/>Bit / Ký tự]
-    D --> E[Control Unit<br/>Đơn vị điều khiển]
-    E --> F[Processing Unit<br/>Xử lý tính toán]
-    F --> G[Memory cơ học<br/>hoặc Relay]
-    G --> E
-    F --> H[Output Unit<br/>Xuất kết quả]
-    H --> I[In ra giấy<br/>hoặc Punch Card mới]
+
+Card["Thẻ Jacquard<br/>(1 hàng dệt)"]
+
+Card e1@-->|Đọc thẻ| HoleCheck{"kiểm tra lỗ"}
+
+%% Nhánh CÓ LỖ
+HoleCheck e2@-->|Có lỗ| NeedlePass["Kim xuyên qua"]
+NeedlePass e3@-->|Kéo| HookPull["Móc được kéo"]
+HookPull e4@-->|Nâng| ThreadUp["Sợi được nâng"]
+
+%% Nhánh KHÔNG LỖ
+HoleCheck e5@-->|Không lỗ| NeedleBlock["Kim bị chặn"]
+NeedleBlock e6@-->|Giữ nguyên| ThreadDown["Sợi không nâng"]
+
+%% Animate points (giống ví dụ của bạn)
+e1@{animate: true}
+e2@{animate: true}
+e3@{animate: true}
+e4@{animate: true}
+e5@{animate: true}
+e6@{animate: true}
 
 ```
 
+
+
+
+![Cách sử dụng máy tính thẻ đục lỗ](https://www.youtube.com/watch?v=UiVAq3nwD0M)
 
 ```mermaid
 flowchart LR
@@ -61,3 +78,6 @@ flowchart LR
 
 
 [The Virtual Keypunch – Make Your Personal Punch Card](https://www.masswerk.at/keypunch/)
+
+- [Jacquard machine - Wikipedia](https://en.wikipedia.org/wiki/Jacquard_machine)
+- [Binary and the Jacquard Mechanism - demonstration - YouTube](https://www.youtube.com/watch?v=pzYucg3Tmho&t=183s)
