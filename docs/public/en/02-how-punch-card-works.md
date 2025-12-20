@@ -283,7 +283,7 @@ Eventually, Hollerith’s companies merged, forming [IBM - International Busines
 
 ---
 
-## The Birth of IBM and the IBM 029
+# The Birth of IBM and the IBM 029
 
 As Hollerith systems expanded beyond census work, IBM standardized:
 
@@ -307,7 +307,7 @@ Machines like the **IBM 029 Keypunch** modernized the same principles with impro
 
 ---
 
-## References
+# References
 
 - [Jacquard machine – Wikipedia](https://en.wikipedia.org/wiki/Jacquard_machine)
 - [Binary and the Jacquard Mechanism – YouTube](https://www.youtube.com/watch?v=pzYucg3Tmho)
