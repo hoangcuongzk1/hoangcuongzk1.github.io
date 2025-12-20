@@ -89,12 +89,20 @@ Xử lý song song + internet: 1990, 50y
 
 ## 1. Thời kỳ sơ khai(1890s - 1950s)
 
-### Thẻ đục lỗ và Batch Procress
+### Thẻ đục lỗ
 
 | ![IBM 7090](https://media.sciencephoto.com/c0/09/91/94/c0099194-800px-wm.jpg) | ![IBM 029](https://twobithistory.org/images/ibm029_front.jpg) |
 | ----------------------------------------------------------------------------- | ------------------------------------------------------------- |
 
 Nếu các bạn cũng giống tôi khi tìm hiểu tới đây, tò mò muốn biết cách các máy tính đục lỗ hoạt động ra sao, thì hãy đọc [bài viết này](https://hoangcuongzk1.xynok.com/devlog/post-03).
+
+|Thẻ đục lỗ|Hệ thống hiện đại|
+|---|---|
+|Lỗ / không lỗ|Bit 1 / 0|
+|Thẻ|File|
+|Deck thẻ|Program / Data pipeline|
+|Batch|Job, Task, Build|
+|Máy đọc|Parser / Loader|
 
 Ở giai đoạn đầu của ngành(những năm 1890–1960), phần lớn chương trình chạy trên [Punch Card - thẻ đục lỗ](https://en.wikipedia.org/wiki/Punched_card). Giai đoạn này là giai đoạn chưa tồn tại khái niệm **giao diện người dùng**.
 

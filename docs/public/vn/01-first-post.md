@@ -43,7 +43,6 @@ Và thú thiệt, tôi chưa hài lòng lắm với cách tổ chức, tìm ki�
 
 Chính vì vậy tôi tự xây trang web này (shared version) một phần là để cá nhân hoá trải nghiệm lưu trữ tài liệu của mình. Version private thì tôi build app bundle riêng và đồng bộ một phần với trang web này.
 
-
 ## Quan sát và hoàn thiện bản thân 
 Chà, cũng khá lâu rồi kể từ khi tôi tự mình học tập và làm việc.
 
@@ -51,6 +50,16 @@ Vì làm việc một mình nên tôi không có ai đánh giá cho chất lư�
 
 Chính vì vầy, việc công khai suy nghĩ, ngâm cứu,.... của bản thân sẽ phần nào là hình thức gián tiếp ép bản thân phải chịu trách nhiệm cho một nghĩa vụ cụ thể.
 Và nếu không hoàn thành thì sẽ khiến bản thân tôi cảm thấy mất uy tín và cắn dứt lương tâm 🙃. Một phương pháp học tập khá là ... kỳ quặc.
+
+
+## Học Rust 
+Khi bắt đầu tìm hiểu về Rust lần đầu tiên vào khoảng 2-3 năm trước. Tôi rất bất ngờ và đã đem lòng mến mộ ngôn ngữ này. Tôi thậm chí còn tạo những code convention có triết lý giống của Rust để làm dự án. 
+
+Nhưng phải thừa nhận, sức mạnh của Rust không chỉ tới từ các triết lý của ngôn ngữ. Mà yếu tố quan trọng hơn cả đó là trình biên dịch của Rust. Nên việc chuyển hoàn toàn sang Rust là điều cần thiết để phát huy toàn bộ sức mạnh mà Rust có.
+
+Dĩ nhiên trong quãng thời gian này tôi vẫn chưa thực sự chuyển hẳn 100% sang Rust, trang web này, tại thời điểm tôi đang viết bài này, được tạo ra để tôi có động lực học Rust mà thôi =]]]. 
+
+Một phần vì kiến thức về Rust của tôi còn non nớt vả phần nhiều là vì các thư viện quan trọng để làm app, game bằng Rust không đa dạng bằng các ngôn ngữ khác nên cũng khá rủi ro nếu chuyển hết ngay lập tức phải không nào 😂😂.
 
 ---
 # Nội dung các bài viết sẽ đề cấp tới những gì ?
@@ -71,6 +80,5 @@ Chắc một số bạn đọc sẽ hỏi là "ủa trang web này thì sao ? B�
 
 
 # Tần suất lên bài
-
 Thường thì thời gian lên bài sẽ không cố định, nhưng tôi sẽ cố gắng lên ít nhất là 12 bài/năm.
 

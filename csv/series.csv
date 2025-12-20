@@ -1,6 +1,8 @@
 key,en,vn
 omw,OMW,OMW
 talk,Life Stories,Câu chuyện cuộc sống
+rust-server, Rust Server, Rust Server
+rust-client, Rust Client, Rust Client
 software-architectures,"Software architectures","Kiến trúc phần mềm"
 computer-hardwares,"Computer hardwares","Phần cứng máy tính"
 debug,Debug,Debug
