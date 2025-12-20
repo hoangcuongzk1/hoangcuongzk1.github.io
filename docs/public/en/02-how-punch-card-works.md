@@ -111,7 +111,7 @@ By the late 19th century, the United States faced a serious challenge: populatio
 Readers should not focus excessively on the printed characters on the cards. These symbols merely reflect predefined conventions. Without knowing the mapping rules, the symbols are naturally meaningless.
 
 Hollerith cards were designed for reuse across multiple data-processing tasks, not solely for census work. Therefore, their structure consisted of two main parts:
-![Card layouts](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-02/vn_explain_punchcard.png?raw=true)
+![Card layouts](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-02/en_explain_punchcard.png?raw=true)
 
 1. **Identification & Convention Layer**
     - Defines the type of data stored
@@ -299,7 +299,7 @@ The result was the **80-column punched card**:
     
 With standard IBM cards, IBM not only stores information but also programs. Indeed, each card itself can be configured to specify what type of information will be entered.
 
-![The main components of IBM 029](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-02/vn_ibm_029_info.png?raw=true)
+![The main components of IBM 029](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-02/en_ibm_029_info.png?raw=true)
 
 Machines like the **IBM 029 Keypunch** modernized the same principles with improved electromechanical technology.
 

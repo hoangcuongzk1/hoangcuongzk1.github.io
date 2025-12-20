@@ -29,7 +29,7 @@ Năm 1804, Joseph Marie Jacquard giới thiệu [Jacquard machine – Wikipedia]
 
 | Các thẻ Jacquard                                                                                                                                       | Kết quả dệt                                                                                                                                                               |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![các thẻ dệt của máy](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-03/punch_card_weaving_machine.gif?raw=true) | ![các sợi được đan theo nhiều hàng khác nhau](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-03/visual_weaving_machine.gif?raw=true) |
+| ![các thẻ dệt của máy](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-02/punch_card_weaving_machine.gif?raw=true) | ![các sợi được đan theo nhiều hàng khác nhau](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-02/visual_weaving_machine.gif?raw=true) |
 
 ```mermaid
 flowchart LR
