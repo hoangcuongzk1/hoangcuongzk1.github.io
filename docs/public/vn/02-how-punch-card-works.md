@@ -1,7 +1,7 @@
 ---
 title: Máy tính đục lỗ
 creation date: 2025-12-13T05:56:00
-slug: post-03
+slug: post-02
 series: computer-hardwares
 excerpt: Cách máy tính đục lỗ - punch card hoạt động.
 lang: vn
@@ -27,9 +27,9 @@ Năm 1804, Joseph Marie Jacquard giới thiệu [Jacquard machine – Wikipedia]
 
 ### Cơ chế hoạt động
 
-|Các thẻ Jacquard|Kết quả dệt|
-|---|---|
-|![các thẻ dệt của máy](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-03/punch_card_weaving_machine.gif?raw=true)|![các sợi được đan theo nhiều hàng khác nhau](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-03/visual_weaving_machine.gif?raw=true)|
+| Các thẻ Jacquard                                                                                                                                       | Kết quả dệt                                                                                                                                                               |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![các thẻ dệt của máy](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-03/punch_card_weaving_machine.gif?raw=true) | ![các sợi được đan theo nhiều hàng khác nhau](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-03/visual_weaving_machine.gif?raw=true) |
 
 ```mermaid
 flowchart LR
@@ -89,9 +89,8 @@ Máy dệt Jacquard không phải máy tính, nhưng nó đặt nền móng cho 
 
 ## Herman Hollerith & điều tra dân số Mỹ
 
-| Máy lập bảng Hollerith (1890)                                                                                       | Thẻ Hollerith                                                                                           |
-| ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | ![Máy Hollerith 1890](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfbLtbyzuvW4QXKKSL_GkUOFtr7oe3znjO6g&s) | ![Thẻ đục lỗ Hollerith](https://upload.wikimedia.org/wikipedia/commons/e/ea/Hollerith_Punched_Card.jpg) |
+| ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 
 
 Cuối thế kỷ 19, Hoa Kỳ đối mặt với một vấn đề nghiêm trọng:  
@@ -112,7 +111,7 @@ Herman Hollerith đã tạo ra một chiếc máy thay đổi cách mà chúng t
 Trước khi bắt đầu phân tích, một lưu ý cho các bạn đọc là đừng cố hiểu và tập trung quá vào các ký tự trên thẻ. Bản thân chúng là một tập hợp các ký tự đã được quy ước để đại diện cho một loại thông tin nào đó, nên việc chúng ta chẳng hiểu chúng có ý nghĩa gì là điểu hiển nhiên (do chúng ta đâu biết quy ước là gì đâu).
 
 Trên thực tế, ứng dụng của Hollerith có thể đã được tái sử dụng cho nhiều công việc liên quan đến lưu trữ thông tin khác nhau (không chỉ dừng lại ở việc điều tra dân số). Chính vì vậy cấu trúc chung của các loại thẻ được chia làm 2 phần chính:
-![các phần thông tin của thẻ](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-03/vn_explain_punchcard.png?raw=true)
+![các phần thông tin của thẻ](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-02/vn_explain_punchcard.png?raw=true)
 
 1. **Phần định danh quy ước**
 - Quy ước các loại thông tin mà thẻ lưu trữ
@@ -361,10 +360,14 @@ IBM chuẩn hoá thẻ 80 cột, với cấu trúc:
 - Mỗi cột đại diện cho 1 ký tự
 - Mỗi ký tự được mã hoá bằng tổ hợp lỗ
 
-Với thẻ IBM chuẩn, không chỉ lưu trữ thông tin, IBM còn lưu trữ các chương trình trong thẻ. Thật vậy, bản thân mỗi thẻ có thể cấu hình, quy định xem loại thông tin nào sẽ được nhập.
+Với thẻ IBM chuẩn, không chỉ lưu trữ thông tin, IBM còn lưu trữ các chương trình trong thẻ. Thật vậy, bản thân mỗi thẻ có thể cấu hình, quy định xem loại thông tin nào sẽ được nhập liệu.
 
-![Các bộ phận quan trọng của IBM 029](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-03/vn_ibm_029_info.png?raw=true)
+![Các bộ phận chính của IBM 029](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-02/vn_ibm_029_info.png?raw=true)
 
+
+Cơ chế hoạt động chính vẫn bám sát nguyên lý của máy thống kê dân số từ năm 1890, nhưng hiện đại hoá hơn nhờ các kỹ thuật công nghệ cơ khí và điện.
+
+![1964 IBM 029 Keypunch Card Punching Demonstration - YouTube](https://www.youtube.com/watch?v=YnnGbcM-H8c)
 
 # Nguồn tham khảo
 - [Jacquard machine – Wikipedia](https://en.wikipedia.org/wiki/Jacquard_machine)

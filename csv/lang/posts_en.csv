@@ -1,3 +1,4 @@
 slug,series,title,date,tags,excerpt,lang,fileName,cover
+post-02,computer-hardwares,Punch card machine,2025-12-13T05:56:00,hardware,How punch cards work.,en,02-how-punch-card-works.md,https://twobithistory.org/images/ibm029_front.jpg
 post-01,talk,First Post,2025-12-09T01:15:00,talk,"Why This Website Exists, and What It Will Contain.",en,01-first-post.md,https://cdn11.bigcommerce.com/s-8e25iavqdi/images/stencil/1280x1280/products/121929/138853/the-hobbit-an-unexpected-journey-4-cover-art-sticker-ACF054879__04107.1650926362.jpg?c=2
 post-00,debug,Test Post Rendering,2025-12-08T01:26:00,test,Test Post Rendering from markdown to HTML.,en,00-test.md,https://i.pinimg.com/originals/82/71/47/82714763ab84910774a889d31ca8e4c1.gif
