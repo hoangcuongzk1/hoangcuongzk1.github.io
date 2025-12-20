@@ -303,6 +303,7 @@ With standard IBM cards, IBM not only stores information but also programs. Inde
 
 Machines like the **IBM 029 Keypunch** modernized the same principles with improved electromechanical technology.
 
+![1964 IBM 029 Keypunch Card Punching Demonstration - YouTube](https://www.youtube.com/watch?v=YnnGbcM-H8c)
 
 ---
 
