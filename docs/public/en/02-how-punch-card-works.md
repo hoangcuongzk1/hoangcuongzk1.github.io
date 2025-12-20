@@ -30,8 +30,8 @@ In **1804**, **Joseph Marie Jacquard** introduced the [Jacquard machine – Wiki
 
 
 
-| ![punched card batches](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-03/punch_card_weaving_machine.gif?raw=true) | ![The threads are woven in many different rows.](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-03/visual_weaving_machine.gif?raw=true) |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![punched card batches](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-02/punch_card_weaving_machine.gif?raw=true) | ![The threads are woven in many different rows](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-02/visual_weaving_machine.gif?raw=true) |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 ```mermaid
 flowchart LR
