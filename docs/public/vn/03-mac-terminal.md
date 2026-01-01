@@ -1,33 +1,56 @@
 ---
-title: MacOS Terminal tutorial
+title: Gia tăng hiệu suất làm việc cùng Terminal
 creation date: 2026-01-01T22:25:00
 slug: post-03
-series: tools
-excerpt: Tăng hiệu suất làm việc cùng terminal.
+series: productivity
+excerpt: Terminal là gì ? Một số ứng dụng thực tế sử dụng Terminal.
 lang: vn
-cover img: link to cover img
+cover img: https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-03/my_terminal_preview.png?raw=true
 tags:
-  - terminal
+  - productivity
 ---
-# Hướng Dẫn Terminal Toàn Diện. Từ Cơ Bản Đến Nâng Cao - Dành Cho macOS
+## Mở bài
+
+
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTY5NWc4aWQxOTF2bGJmZ2U0cmZlaDc2dTBoMTN4N3c4dDdhd21iYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kJ1iL1ZQIyibu/giphy.gif)
+
+Chắc hẳn ai trong chúng ta cũng từng ít nhất một lần bị ấn tượng bởi các hacker nhảy múa trên bàn phím và nhìn vào màn hình toàn chữ là chữ.
+
+Bản thân tôi cũng bị lôi cuốn và hấp dẫn bởi hình ảnh này khi bước chân vào nghề này. Nhưng trớ trêu thay, từ khi học lập trình tới giờ, rất ít khi tôi có cơ hội dành thời gian cho terminal. Thi thoảng chỉ dùng để cài đặt package mà thôi.
+
+Gần đây tôi bắt đầu làm việc nhiều hơn với auto-build và tool. Và vì thế tôi bắt đầu làm việc nhiều hơn với terminal. 
+
+Trong qúa trình làm việc cùng terminal, tôi nhận ra rằng: "Trời ! Giá mà mình dùng nó sớm hơn".
+
+Lợi ích của terminal thì vô vàn, tuỳ vào ngữ cảnh đặc thù việc mà ta làm. Nhưng tôi khoái nhất là việc tôi không cần dùng tới chuột nữa. Thật nhanh chóng và tiện lợi.
+
+Tôi không rõ các bạn có giống tôi không, nhưng tôi khá là lười dùng chuột. Giai đoạn đầu khi mới theo nghề thì tôi dùng nó rất thường xuyên, nhưng sau này khi đã thuộc lòng các `shortcut` của IDE rồi thì tôi không mấy khi dùng tới nó nữa.
+
+Và tôi rất ghen tỵ với các lập trình viên backend, data analytics, .... Phần lớn công việc của họ là quan tâm tới `input/output` của data. Còn frontend thì phải test visual của phần mềm nữa, nên không tránh được việc sử dụng chuột. Còn họ có thể test phần lớn code đã viết thông qua `UnitTest`, rất chi là ... tuyệt vời ... hic hic 🫠. 
+
+Dĩ nhiên nếu như project có:
+- Visual, View template, ...
+- Một bạn Designer ngồi chỉnh thông số thay vì Dev phải tự code tự làm Visual
+- ...
+
+sẵn rồi thì việc này cũng hạn chế lại phần nào 🙃. Có lẽ tôi nên chuyển qua làm backend 😂.
+
+Thôi không dông dài nữa, nội dung bài viết này sẽ có 2 phần chính:
+- Terminal đại cương
+- Các ứng dụng trong thực tế
+Và lưu ý: môi trường tôi sử dụng sẽ là **macOS - Zsh**.
 
 ---
-![[my_terminal_preview.png]]
-## Phần 1: Nguồn Gốc và Lịch Sử
 
-### 1.1 Terminal là gì?
+
+
+## Terminal đại cương
+
+### Terminal là gì?
 
 Terminal (hay còn gọi là Command Line Interface - CLI) là giao diện dòng lệnh cho phép bạn giao tiếp với hệ điều hành bằng văn bản thay vì giao diện đồ họa (GUI).
 
-### 1.2 Lịch sử
-
-- **Những năm 1960-1970**: Các máy tính mainframe chỉ có terminal văn bản (teletype machines)
-- **Unix (1969)**: Ken Thompson và Dennis Ritchie tại Bell Labs tạo ra Unix - hệ điều hành nền tảng cho macOS
-- **Shell đầu tiên**: Thompson shell (sh) → Bourne shell (sh) → Bash (1989) → Zsh (1990)
-- **macOS**: Được xây dựng trên nền Darwin (dựa trên BSD Unix và Mach kernel)
-- **2019**: Apple chuyển từ Bash sang Zsh làm shell mặc định
-
-### 1.3 Tại sao cần dùng Terminal?
+### Tại sao cần dùng Terminal?
 
 - **Hiệu quả**: Nhanh hơn nhiều so với GUI cho các tác vụ lặp đi lặp lại
 - **Mạnh mẽ**: Truy cập đầy đủ tính năng hệ thống
@@ -35,17 +58,17 @@ Terminal (hay còn gọi là Command Line Interface - CLI) là giao diện dòng
 - **Remote**: Điều khiển máy từ xa qua SSH
 - **Lập trình**: Cần thiết cho development (Git, npm, pip, docker, v.v.)
 
+
 ---
 
-## Phần 2: Cơ Bản - Bắt Đầu Với Terminal
+### Cách sử dụng Terminal cơ bản
 
-### 2.1 Mở Terminal
+**Mở Terminal**
 
-- **Cách 1**: `Cmd + Space` → gõ "Terminal" → Enter
+- **Cách 1**: `Cmd + Space` → gõ Terminal → Enter
 - **Cách 2**: Applications → Utilities → Terminal
-- **Cách 3**: Dùng iTerm2 (terminal thay thế tốt hơn)
 
-### 2.2 Cấu trúc một lệnh
+**Cấu trúc một lệnh**
 
 ```bash
 command -options arguments
@@ -61,13 +84,18 @@ ls -la /Users/username/Documents
 └─ Command (lệnh)
 ```
 
-### 2.3 Hệ thống file macOS
+### Hệ thống file macOS
+Điều quan trọng nhất khi làm việc với Terminal là ta phải luôn hình dung trong đầu là ta đang làm việc ở folder nào.
 
-```
+Việc này sẽ hơi khó một chút khi mới bắt đầu, nhưng không sao đâu, dần dần quen rồi thì trong đầu ta sẽ luôn có một UI visual như thể có UI File Explorer vậy.
+
+Thông thường, terminal khi khởi động sẽ tự động xuất phát từ thư mục `user`.
+
+```bash
 /                    # Root (gốc của hệ thống)
 ├── Applications     # Ứng dụng
-├── Users           # Thư mục người dùng
-│   └── username    # Thư mục home của bạn (~)
+├── Users            # Thư mục người dùng
+│   └── username     # 🌟 -> terminal mặc định thường sẽ bắt đầu từ đây
 │       ├── Desktop
 │       ├── Documents
 │       ├── Downloads
@@ -76,17 +104,10 @@ ls -la /Users/username/Documents
 └── Library         # Thư viện hệ thống
 ```
 
-### 2.4 Đường dẫn (Path)
-
-- **Absolute path**: Đường dẫn đầy đủ từ root: `/Users/username/Documents/file.txt`
-- **Relative path**: Đường dẫn tương đối: `./Documents/file.txt` hoặc `../Downloads/`
-- **Home directory**: `~` = `/Users/username`
-
 ---
+### Các Lệnh Cơ Bản 
 
-## Phần 3: Lệnh Cơ Bản Hằng Ngày
-
-### 3.1 Di chuyển và xem thư mục
+#### Chuyển và xem thư mục
 
 ```bash
 # Xem thư mục hiện tại
@@ -101,7 +122,7 @@ ls -lh              # Kích thước dễ đọc (human-readable)
 ls -lt              # Sắp xếp theo thời gian
 ls -lS              # Sắp xếp theo kích thước
 
-# Di chuyển thư mục
+# Chuyển thư mục làm việc
 cd Documents        # Vào thư mục Documents
 cd ..               # Lùi 1 cấp
 cd ../..            # Lùi 2 cấp
@@ -110,7 +131,7 @@ cd /                # Về root
 cd -                # Về thư mục trước đó
 ```
 
-### 3.2 Thao tác với File và Folder
+#### Thao tác với File và Folder
 
 ```bash
 # Tạo mới
@@ -138,7 +159,7 @@ file image.jpg             # Kiểu file
 du -sh folder              # Kích thước folder
 ```
 
-### 3.3 Xem và Chỉnh Sửa File
+####  Xem và Chỉnh Sửa File
 
 ```bash
 # Xem nội dung
@@ -156,11 +177,30 @@ open file.txt              # Mở bằng app mặc định
 open -a "Visual Studio Code" file.txt  # Mở bằng app cụ thể
 ```
 
+
+#### Keyboard Shortcuts
+
+```bash
+Ctrl + A        # Về đầu dòng
+Ctrl + E        # Về cuối dòng
+Ctrl + U        # Xóa từ con trỏ về đầu
+Ctrl + K        # Xóa từ con trỏ đến cuối
+Ctrl + W        # Xóa 1 từ trước con trỏ
+Ctrl + L        # Clear screen (= lệnh clear)
+Ctrl + R        # Tìm trong history (gõ để tìm)
+Ctrl + C        # Cancel lệnh
+Ctrl + D        # Exit shell
+Ctrl + Z        # Suspend process
+!!              # Lệnh trước đó
+!$              # Argument cuối của lệnh trước
+```
+
+
 ---
 
-## Phần 4: Kỹ Năng Trung Cấp
+### Các lệnh trung cấp
 
-### 4.1 Wildcards (Ký tự đại diện)
+#### Wildcards (Ký tự đại diện)
 
 ```bash
 *           # Đại diện cho bất kỳ ký tự nào
@@ -174,7 +214,7 @@ ls [abc]*.txt      # File bắt đầu bằng a, b, hoặc c
 rm temp*           # Xóa tất cả file bắt đầu bằng temp
 ```
 
-### 4.2 Tìm Kiếm
+#### Tìm Kiếm
 
 ```bash
 # Tìm file/folder
@@ -190,237 +230,7 @@ grep -i "keyword" file.txt     # Không phân biệt hoa thường
 grep -n "keyword" file.txt     # Hiển thị số dòng
 ```
 
-### 4.3 Pipes và Redirects
-
-```bash
-# Redirect output
-command > file.txt         # Ghi đè vào file
-command >> file.txt        # Thêm vào cuối file
-command 2> error.log       # Ghi lỗi vào file
-
-# Pipe (|) - Nối lệnh
-ls -la | grep ".txt"       # Lọc kết quả ls
-cat file.txt | wc -l       # Đếm số dòng
-history | grep "git"       # Tìm trong lịch sử
-
-# Kết hợp
-cat access.log | grep "error" | wc -l  # Đếm số lỗi
-```
-
-### 4.4 Quyền (Permissions)
-
-```bash
-# Xem quyền
-ls -l
-# -rw-r--r--  1 user  staff  1234 Jan 1 12:00 file.txt
-# │││││││││
-# │││└┬┘└┬┘ └─ Others (khác)
-# ││└──┬──┘ ─── Group (nhóm)
-# │└───┴───────── Owner (chủ sở hữu)
-# └─────────────── File type (- = file, d = directory)
-# r = read (4), w = write (2), x = execute (1)
-
-# Thay đổi quyền
-chmod 644 file.txt         # rw-r--r-- (owner: rw, other: r)
-chmod 755 script.sh        # rwxr-xr-x (owner: rwx, other: rx)
-chmod +x script.sh         # Thêm quyền execute
-
-# Thay đổi owner
-sudo chown user:group file.txt
-```
-
----
-
-## Phần 5: Kỹ Năng Nâng Cao
-
-### 5.1 Process Management
-
-```bash
-# Xem processes
-ps                         # Process của user
-ps aux                     # Tất cả process
-top                        # Realtime (q để thoát)
-htop                       # Top đẹp hơn (cần cài: brew install htop)
-
-# Quản lý process
-command &                  # Chạy background
-jobs                       # Xem jobs
-fg                         # Đưa lên foreground
-Ctrl+Z                     # Tạm dừng
-bg                         # Tiếp tục ở background
-
-# Kill process
-kill PID                   # Kill bằng ID
-killall process_name       # Kill bằng tên
-pkill -f pattern          # Kill theo pattern
-```
-
-### 5.2 Variables và Environment
-
-```bash
-# Variables
-name="John"
-echo $name                 # In ra: John
-echo "Hello $name"         # Hello John
-
-# Environment variables
-echo $PATH                 # Đường dẫn tìm commands
-echo $HOME                 # Thư mục home
-echo $USER                 # Tên user
-
-# Export variables
-export MY_VAR="value"      # Biến global
-echo $MY_VAR
-
-# Xem tất cả env vars
-env
-printenv
-```
-
-### 5.3 Aliases và Functions
-
-```bash
-# Tạo alias (shortcut)
-alias ll="ls -la"
-alias ..="cd .."
-alias gs="git status"
-
-# Alias vĩnh viễn: thêm vào ~/.zshrc
-echo 'alias ll="ls -la"' >> ~/.zshrc
-source ~/.zshrc            # Load lại config
-
-# Functions
-function mkcd() {
-    mkdir -p "$1"
-    cd "$1"
-}
-
-# Sử dụng
-mkcd new_project           # Tạo và vào folder
-```
-
-### 5.4 Shell Scripting Cơ Bản
-
-```bash
-# Tạo file script
-touch script.sh
-chmod +x script.sh
-
-# Nội dung script.sh
-#!/bin/zsh
-
-# Variables
-name="World"
-
-# Conditional
-if [ -f "file.txt" ]; then
-    echo "File exists"
-else
-    echo "File not found"
-fi
-
-# Loop
-for i in {1..5}; do
-    echo "Number: $i"
-done
-
-# Function
-greet() {
-    echo "Hello, $1!"
-}
-
-greet "Alice"
-
-# Chạy script
-./script.sh
-```
-
-### 5.5 Networking
-
-```bash
-# Kiểm tra kết nối
-ping google.com            # Test connectivity
-curl https://api.github.com  # HTTP request
-wget https://example.com/file.zip  # Download file
-
-# Network info
-ifconfig                   # Network interfaces
-netstat -an               # Network connections
-lsof -i :8080             # Xem port đang dùng
-
-# SSH
-ssh user@hostname         # Kết nối remote
-scp file.txt user@host:/path/  # Copy file qua SSH
-```
-
----
-
-## Phần 6: Công Cụ Hằng Ngày Cho Developer
-
-### 6.1 Git
-
-```bash
-git clone <url>
-git status
-git add .
-git commit -m "message"
-git push
-git pull
-git branch
-git checkout -b new-branch
-```
-
-### 6.2 Package Managers
-
-```bash
-# Homebrew (cài đặt phần mềm)
-brew install node
-brew install python
-brew update
-brew upgrade
-
-# Node.js
-npm install
-npm start
-npm run build
-
-# Python
-pip install requests
-pip list
-```
-
-### 6.3 Docker
-
-```bash
-docker ps                  # Container đang chạy
-docker images              # List images
-docker run -d nginx        # Chạy container
-docker exec -it <id> bash  # Vào container
-docker-compose up          # Start services
-```
-
----
-
-## Phần 7: Tips và Tricks Hằng Ngày
-
-### 7.1 Keyboard Shortcuts
-
-```
-Ctrl + A        # Về đầu dòng
-Ctrl + E        # Về cuối dòng
-Ctrl + U        # Xóa từ con trỏ về đầu
-Ctrl + K        # Xóa từ con trỏ đến cuối
-Ctrl + W        # Xóa 1 từ trước con trỏ
-Ctrl + L        # Clear screen (= lệnh clear)
-Ctrl + R        # Tìm trong history (gõ để tìm)
-Ctrl + C        # Cancel lệnh
-Ctrl + D        # Exit shell
-Ctrl + Z        # Suspend process
-!!              # Lệnh trước đó
-!$              # Argument cuối của lệnh trước
-```
-
-### 7.2 Useful Commands
+#### Tiện ích
 
 ```bash
 # History
@@ -449,199 +259,366 @@ unzip archive.zip                  # Unzip
 python3 -m http.server 8000        # Local web server
 ```
 
-### 7.3 Cấu Hình Terminal Đẹp Hơn
+#### Networking
 
 ```bash
-# Cài Oh My Zsh (theme và plugins cho Zsh)
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# Kiểm tra kết nối
+ping google.com            # Test connectivity
+curl https://api.github.com  # HTTP request
+wget https://example.com/file.zip  # Download file
 
-# Chỉnh ~/.zshrc
-ZSH_THEME="agnoster"       # Theme đẹp
-plugins=(git docker node npm python)
+# Network info
+ifconfig                   # Network interfaces
+netstat -an               # Network connections
+lsof -i :8080             # Xem port đang dùng
 
-# Syntax highlighting
-brew install zsh-syntax-highlighting
-echo "source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
+# SSH
+ssh user@hostname         # Kết nối remote
+scp file.txt user@host:/path/  # Copy file qua SSH
 ```
+
 
 ---
 
-## Phần 8: Workflow Thực Tế
+## Các ứng dụng cơ bản
 
-### 8.1 Quy trình làm việc web developer
+Trong thực tế, sẽ rất vất vả nếu như ta phải liên tục gõ nhiều lệnh liên tục trên terminal. Thay vì phải làm việc, ta sẽ nhóm chúng lại thành một tập lệnh để chạy thông qua một lệnh duy nhất. Có 2 cách để làm việc này:
+- Tạo `Shell Script`
+- Tạo `.zshrc` tại user home path
+	- `func`
+	- `alias`
 
+| Tiêu chí          | Shell Script      | `.zshrc`                |
+| ----------------- | ----------------- | ----------------------- |
+| Mục đích          | Automation / Tool | Cấu hình shell          |
+| Khi nào chạy      | Khi gọi           | Mỗi lần mở terminal     |
+| Tính độc lập      | Cao               | Thấp                    |
+| Nhận tham số      | Có (`$1`)         | Không nên               |
+| Dùng cho CI       | ✔                 | ❌                       |
+| Dùng alias        | ❌                 | ✔                       |
+| Dùng function nhỏ | ❌                 | ✔                       |
+| Có shebang        | ✔                 | ❌                       |
+| Có side-effect    | Kiểm soát được    | Dễ gây lỗi nếu viết sai |
+
+### `.zshrc` func
+Ví dụ, trong thực tế khi muốn xoá một folder, files:
 ```bash
-# Sáng - Start
-cd ~/Projects/my-app
-git pull origin main
-npm install                # Cập nhật dependencies
-code .                     # Mở VSCode
-
-# Development
-npm run dev                # Start dev server
-git checkout -b feature/new-button
-# ... code ...
-git add .
-git commit -m "Add new button"
-git push origin feature/new-button
-
-# Testing
-npm test
-npm run lint
-
-# Deploy
-npm run build
-git checkout main
-git merge feature/new-button
-git push origin main
+# Xóa
+rm file.txt                # Xóa file
+rm -r folder               # Xóa folder
+rm -rf folder              # Xóa bắt buộc (cẩn thận!)
+rmdir empty_folder         # Xóa folder trống
 ```
 
-### 8.2 Tự động hóa tác vụ lặp
-
-```bash
-# Backup script
-#!/bin/zsh
-DATE=$(date +%Y-%m-%d)
-tar -czf ~/Backups/backup-$DATE.tar.gz ~/Documents/important
-echo "Backup completed: backup-$DATE.tar.gz"
-
-# Cleanup script
-#!/bin/zsh
-# Xóa file node_modules cũ
-find ~/Projects -name "node_modules" -type d -mtime +30 -exec rm -rf {} +
-# Xóa .DS_Store
-find ~/Projects -name ".DS_Store" -delete
-echo "Cleanup completed"
+```callout
+[!CAUTION] nguy hiểm
+Các lệnh này rất nguy hiểm, chúng sẽ xoá hoàn toàn và không lưu trữ vào thùng rác 🗑️.
 ```
 
-### 8.3 Bulk operations
-
+Cách an toàn là tạo một custom command ở trong file `.zshrc`, lệnh này sẽ đảm bảo khi ta xoá, các file đó sẽ được chuyển vào thùng rác 🗑️ thay vì xoá hoàn toàn:
 ```bash
-# Đổi tên hàng loạt
-for file in *.jpg; do
-    mv "$file" "photo_${file}"
-done
+# Home/Username/.zshrc
 
-# Resize images (cần ImageMagick: brew install imagemagick)
-for img in *.jpg; do
-    convert "$img" -resize 50% "resized_${img}"
-done
+del() {
+  (( $# == 0 )) && return 0
 
-# Convert files
-for file in *.md; do
-    pandoc "$file" -o "${file%.md}.pdf"
-done
+  local paths=()
+  local files=()
+  local f
+
+  for f in "$@"; do
+    [[ -e "$f" ]] || continue
+    files+=("$f")
+    paths+=("POSIX file \"$(realpath "$f")\"")
+  done
+
+  (( ${#paths[@]} == 0 )) && return 0
+
+  local apple_list
+  apple_list=$(printf ", %s" "${paths[@]}")
+  apple_list="{${apple_list:2}}"
+
+  if osascript -ss -e "tell application \"Finder\" to delete $apple_list" >/dev/null; then
+    print -u2 -- "✅ moved ${#files[@]} item(s) to the Trash:"
+    for f in "${files[@]}"; do
+      if [[ -d "$f" ]]; then
+        print -u2 -- "  📂 ${f:t}/"
+      else
+        print -u2 -- "  📝 ${f:t}"
+      fi
+    done
+  fi
+}
 ```
 
----
 
-## Phần 9: Troubleshooting và Debug
-
-### 9.1 Common Issues
-
+Sau đó mỗi khi ta muốn xoá thì chỉ cần sử dụng lệnh `del`:
 ```bash
-# Permission denied
-sudo command               # Chạy với quyền admin
-
-# Command not found
-which command              # Kiểm tra command có tồn tại
-echo $PATH                 # Kiểm tra PATH
-
-# Port đã được sử dụng
-lsof -ti:3000              # Xem process dùng port 3000
-lsof -ti:3000 | xargs kill # Kill process đó
-
-# Disk full
-du -sh /* | sort -h        # Tìm folder lớn
-brew cleanup               # Dọn dẹp Homebrew cache
+del a.txt  # xoá file a.txt            -> di chuyển file này vào thùng rác
+del *.meta # xoá toàn bộ các file.meta -> di chuyển chúng vào thùng ra
 ```
 
-### 9.2 Logs và Debugging
-
-```bash
-# System logs
-log stream                 # Realtime logs
-log show --last 1h         # Logs 1 giờ qua
-
-# Application logs
-tail -f /var/log/system.log
-tail -f app.log | grep ERROR
-
-# Debug script
-bash -x script.sh          # Chạy với debug mode
-set -x                     # Bật debug trong script
-set +x                     # Tắt debug
+Rất an toàn và tiện lợi phải không nào !
+```callout
+[!NOTE] Lưu ý
+Có một cách khác nữa là sử dụng `alias`, nhưng cá nhân tôi không khuyến khích các bạn dùng chúng vì thường ta sẽ truyền tham số vào lệnh, và `alias` thì sẽ không hiệu quả khi ta làm việc với nhiều tham số so với `func`.
 ```
 
----
 
-## Phần 10: Best Practices
+### `.zshrc` alias
 
-### 10.1 An Toàn
-
-- ✅ Luôn kiểm tra kỹ trước khi dùng `rm -rf`
-- ✅ Backup trước khi thay đổi file hệ thống
-- ✅ Không chạy script từ nguồn không rõ ràng
-- ✅ Dùng `sudo` một cách cẩn thận
-- ✅ Kiểm tra đường dẫn trước khi xóa: `pwd` trước `rm -rf *`
-
-### 10.2 Hiệu Quả
-
-- Học shortcuts - tiết kiệm rất nhiều thời gian
-- Dùng tab completion thay vì gõ đầy đủ
-- Tạo aliases cho lệnh hay dùng
-- Viết scripts cho tác vụ lặp lại
-- Dùng history để tìm lại lệnh cũ
-
-### 10.3 Tổ Chức
+Tuy `alias` không hữu ích trong việc xử lý các tác vụ phức tạp. Nhưng dùng nó cho các tác vụ đơn giản thì rất tiện. Ví dụ, thay vì phải liên tục dùng lệnh `cd` để truy cập tới folder cần làm việc ta chỉ cần gán alias cho chúng là xong !
 
 ```bash
-# Cấu trúc project tốt
-~/Projects/
-  ├── work/
-  ├── personal/
-  └── learning/
-
 # Aliases hữu ích trong ~/.zshrc
 alias projects="cd ~/Projects"
 alias work="cd ~/Projects/work"
 alias personal="cd ~/Projects/personal"
 ```
 
----
 
-## Phần 11: Resources Để Học Thêm
+##  `.zshrc` và `.sh` chi tiết cách sử dụng nâng cao
 
-### 11.1 Documentation
-
-- `man command` - Manual pages ngay trong terminal
-- [https://ss64.com/osx/](https://ss64.com/osx/) - macOS command reference
-- [https://explainshell.com/](https://explainshell.com/) - Giải thích lệnh
-
-### 11.2 Tools nên cài
+#### Function Cơ Bản
 
 ```bash
-brew install htop          # Process monitor đẹp hơn
-brew install tree          # Hiển thị cây thư mục
-brew install bat           # cat với syntax highlighting
-brew install fzf           # Fuzzy finder
-brew install ripgrep       # grep nhanh hơn
+# Cú pháp
+function tên_lệnh() {
+    # code ở đây
+    # $1, $2, $3... là parameters
+}
+
+# Ví dụ 1: Tạo và vào folder
+function mkcd() {
+    mkdir -p "$1"
+    cd "$1"
+}
+
+# Sử dụng
+mkcd my-project       # Tạo folder và cd vào luôn
+
+# Ví dụ 2: Git commit nhanh
+function gcom() {
+    git add .
+    git commit -m "$1"
+    git push
+}
+
+# Sử dụng
+gcom "fix bug"        # Add, commit với message, và push
+
+# Ví dụ 3: Backup file
+function backup() {
+    if [ -z "$1" ]; then
+        echo "Usage: backup <file>"
+        return 1
+    fi
+    cp "$1" "$1.backup.$(date +%Y%m%d_%H%M%S)"
+    echo "Backed up: $1"
+}
+
+# Sử dụng
+backup important.txt  # Tạo important.txt.backup.20250101_143022
 ```
 
-### 11.3 Cheat Sheets
+
+---
+
+### Shell Scripts - Lệnh Độc Lập
+
+**Shell Scripts** là files thực thi độc lập, giống như chương trình.
+
+#### Bước 1: Tạo Script File
 
 ```bash
-# Tạo file cheat sheet riêng
-touch ~/cheatsheet.txt
-alias cheat="cat ~/cheatsheet.txt | grep"
+# Tạo thư mục cho scripts (lần đầu)
+mkdir -p ~/bin
 
-# Dùng khi cần
-cheat "git"
+# Tạo script
+nano ~/bin/mycommand
+
+# Nội dung file mycommand:
+#!/bin/zsh
+
+# Script của bạn ở đây
+echo "Hello from my custom command!"
+echo "You passed: $1"
+```
+
+#### Bước 2: Làm Script Có Thể Chạy
+
+```bash
+# Thêm quyền execute
+chmod +x ~/bin/mycommand
+
+# Test
+~/bin/mycommand hello
+```
+
+#### Bước 3: Thêm ~/bin Vào PATH
+
+Để chạy lệnh ở bất kỳ đâu mà không cần gõ đường dẫn đầy đủ:
+
+```bash
+# Mở ~/.zshrc
+nano ~/.zshrc
+
+# Thêm dòng này
+export PATH="$HOME/bin:$PATH"
+
+# Lưu và load lại
+source ~/.zshrc
+
+# Giờ có thể chạy từ bất kỳ đâu
+mycommand test
 ```
 
 ---
 
-## Kết Luận
+### Ví Dụ Scripts Thực Tế
+
+#### Script 1: Project Starter
+
+```bash
+# File: ~/bin/newproject
+#!/bin/zsh
+
+if [ -z "$1" ]; then
+    echo "Usage: newproject <project-name>"
+    exit 1
+fi
+
+PROJECT_NAME="$1"
+PROJECT_DIR="$HOME/Projects/$PROJECT_NAME"
+
+echo "Creating project: $PROJECT_NAME"
+
+mkdir -p "$PROJECT_DIR"
+cd "$PROJECT_DIR"
+
+# Tạo cấu trúc folder
+mkdir -p src public tests docs
+
+# Tạo files cơ bản
+touch README.md .gitignore
+echo "# $PROJECT_NAME" > README.md
+
+# Git init
+git init
+git add .
+git commit -m "Initial commit"
+
+echo "✅ Project created at: $PROJECT_DIR"
+echo "📂 Opening in VSCode..."
+code .
+```
+
+```bash
+# Cài đặt
+chmod +x ~/bin/newproject
+
+# Sử dụng
+newproject my-awesome-app
+```
+
+#### Script 2: System Cleanup
+
+```bash
+# File: ~/bin/cleanup
+#!/bin/zsh
+
+echo "🧹 Starting system cleanup..."
+
+# Homebrew cleanup
+echo "Cleaning Homebrew..."
+brew cleanup
+brew autoremove
+
+# Clear cache
+echo "Clearing caches..."
+rm -rf ~/Library/Caches/*
+
+# Find large files
+echo "Finding large files (>100MB)..."
+find ~ -type f -size +100M 2>/dev/null | head -n 10
+
+# Disk usage
+echo "Disk usage:"
+df -h /
+
+echo "✅ Cleanup complete!"
+```
+
+#### Script 3: Git Quick Deploy
+
+```bash
+# File: ~/bin/deploy
+#!/bin/zsh
+
+# Colors
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+NC='\033[0m' # No Color
+
+# Check if in git repo
+if ! git rev-parse --git-dir > /dev/null 2>&1; then
+    echo "${RED}❌ Not a git repository${NC}"
+    exit 1
+fi
+
+# Get commit message
+if [ -z "$1" ]; then
+    echo "${RED}Usage: deploy <commit-message>${NC}"
+    exit 1
+fi
+
+MESSAGE="$1"
+
+echo "${YELLOW}📦 Deploying...${NC}"
+
+# Run tests (nếu có)
+if [ -f "package.json" ]; then
+    echo "Running tests..."
+    npm test || exit 1
+fi
+
+# Git operations
+echo "Committing changes..."
+git add .
+git commit -m "$MESSAGE"
+
+echo "Pushing to remote..."
+git push origin main
+
+# Deploy (ví dụ với Vercel)
+if command -v vercel &> /dev/null; then
+    echo "Deploying to Vercel..."
+    vercel --prod
+fi
+
+echo "${GREEN}✅ Deploy complete!${NC}"
+```
+
+---
+
+## Tổng kết
+
+|Feature|Alias|Function|Script|
+|---|---|---|---|
+|Độ phức tạp|Đơn giản|Trung bình|Phức tạp|
+|Parameters|Không|Có|Có|
+|Logic|Không|Có|Có|
+|Reusable|Trong session|Trong session|Độc lập|
+|Tốc độ|Nhanh nhất|Nhanh|Chậm hơn|
+|Sử dụng cho|Shortcuts|Logic đơn giản|Tools phức tạp|
+
+**Khi nào nên dùng ?**
+
+- **Alias**: Shortcuts đơn giản, không cần logic
+- **Function**: Cần parameters, logic đơn giản
+- **Script**: Tools phức tạp, muốn chia sẻ, có nhiều options
+
 
 Terminal là công cụ cực kỳ mạnh mẽ. Bạn không cần nhớ tất cả, hãy:
 
@@ -650,7 +627,3 @@ Terminal là công cụ cực kỳ mạnh mẽ. Bạn không cần nhớ tất c
 3. Tạo aliases cho lệnh hay dùng
 4. Viết scripts để tự động hóa
 5. Thực hành đều đặn
-
-**Nhớ**: `man command` là bạn tốt nhất của bạn!
-
-Happy coding! 🚀

@@ -77,6 +77,30 @@ float price
 
 ![Gif link](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzIzcG41d3Z4Y2diZ3BmNTJma2o3azJuaGQ5OGM1Y2o3M3oxaGg0ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZqlvCTNHpqrio/giphy.gif)
 
+
+<details>
+    <summary>Click here to reveal hints</summary>
+- Use the `.iter()` method on slices to create an iterator over the elements.
+- Consider using the `.max()` method provided by iterators to find the largest value.
+- If using `.max()`, remember to handle the `Option` it returns, as an empty iterator will yield `None`.
+  
+  
+|Feature|Alias|Function|Script|
+|---|---|---|---|
+|Độ phức tạp|Đơn giản|Trung bình|Phức tạp|
+|Parameters|Không|Có|Có|
+|Logic|Không|Có|Có|
+|Reusable|Trong session|Trong session|Độc lập|
+|Tốc độ|Nhanh nhất|Nhanh|Chậm hơn|
+|Sử dụng cho|Shortcuts|Logic đơn giản|Tools phức tạp|
+
+
+```bash
+command -options arguments
+```
+
+</details>
+
 ## code block
 ```cs
 class Conga
