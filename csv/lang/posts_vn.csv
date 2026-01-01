@@ -1,4 +1,5 @@
 slug,series,title,date,tags,excerpt,lang,fileName,cover
+post-04,rust,Tài liệu học Rust,2026-01-02T01:26:00,🦀rust,"Danh sách các cuốn sách, trang web, youtube channel để học Rust.",vn,04-rust-learning-documents.md,https://locusit.com/wp-content/uploads/2024/08/rust-vs-cplusplus-about-rust.jpg
 post-03,productivity,Gia tăng hiệu suất làm việc cùng Terminal,2026-01-01T22:25:00,productivity,Terminal là gì ? Một số ứng dụng thực tế sử dụng Terminal.,vn,03-mac-terminal.md,https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-03/my_terminal_preview.png?raw=true
 post-02,computer-hardwares,Máy tính đục lỗ,2025-12-13T05:56:00,hardware,Cách máy tính đục lỗ - punch card hoạt động.,vn,02-how-punch-card-works.md,https://twobithistory.org/images/ibm029_front.jpg
 post-01,talk,Khởi đầu,2025-12-09T01:26:00,talk,"Lý do trang web này tồn tại, các nội dung mà trang sẽ có.",vn,01-first-post.md,https://cdn11.bigcommerce.com/s-8e25iavqdi/images/stencil/1280x1280/products/121929/138853/the-hobbit-an-unexpected-journey-4-cover-art-sticker-ACF054879__04107.1650926362.jpg?c=2
