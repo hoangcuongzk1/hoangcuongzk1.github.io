@@ -20,7 +20,7 @@ Bản thân tôi cũng bị lôi cuốn và hấp dẫn bởi hình ảnh này k
 
 Gần đây tôi bắt đầu làm việc nhiều hơn với auto-build và tool. Và vì thế tôi bắt đầu làm việc nhiều hơn với terminal. 
 
-Trong qúa trình làm việc cùng terminal, tôi nhận ra rằng: "Trời ! Giá mà mình dùng nó sớm hơn".
+Trong quá trình làm việc cùng terminal, tôi nhận ra rằng: "Trời ! Giá mà mình dùng nó sớm hơn".
 
 Lợi ích của terminal thì vô vàn, tuỳ vào ngữ cảnh đặc thù việc mà ta làm. Nhưng tôi khoái nhất là việc tôi không cần dùng tới chuột nữa. Thật nhanh chóng và tiện lợi.
 
