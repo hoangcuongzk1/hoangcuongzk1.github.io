@@ -1,4 +1,5 @@
 slug,series,title,date,tags,excerpt,lang,fileName,cover
+post-03,tools,MacOS Terminal tutorial,2026-01-01T22:25:00,terminal,Tăng hiệu suất làm việc cùng terminal.,vn,03-mac-terminal.md,link to cover img
 post-02,computer-hardwares,Máy tính đục lỗ,2025-12-13T05:56:00,hardware,Cách máy tính đục lỗ - punch card hoạt động.,vn,02-how-punch-card-works.md,https://twobithistory.org/images/ibm029_front.jpg
 post-01,talk,Khởi đầu,2025-12-09T01:26:00,talk,"Lý do trang web này tồn tại, các nội dung mà trang sẽ có.",vn,01-first-post.md,https://cdn11.bigcommerce.com/s-8e25iavqdi/images/stencil/1280x1280/products/121929/138853/the-hobbit-an-unexpected-journey-4-cover-art-sticker-ACF054879__04107.1650926362.jpg?c=2
 post-00,debug,Markdown rendering,2025-12-08T01:26:00,test,Convert markdown -> HTML.,vn,00-test.md,https://i.pinimg.com/originals/82/71/47/82714763ab84910774a889d31ca8e4c1.gif
