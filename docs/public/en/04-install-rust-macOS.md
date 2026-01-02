@@ -2,7 +2,7 @@
 title: Installing Rust on MacOS
 creation date: 2026-01-02T01:26:00
 slug: post-04
-series: rust
+series: rust-graphic
 excerpt: A comprehensive guide to installing Rust on macOS
 lang: en
 cover img: https://locusit.com/wp-content/uploads/2024/08/rust-vs-cplusplus-about-rust.jpg
@@ -99,8 +99,8 @@ Modify the default `.gitignore` file content to:
 # jetbrain IDE
 [Ii]dea/ 
 
-# default build files of Rust
-/target
+# default build files of Rust for all folders
+**/target/
 
 # macOS 
 *.DS_Store

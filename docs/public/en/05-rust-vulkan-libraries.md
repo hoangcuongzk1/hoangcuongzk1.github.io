@@ -2,7 +2,7 @@
 title: Comparing Popular Rust Vulkan Libraries
 creation date: 2026-01-02T05:30:00
 slug: post-05
-series: rust
+series: rust-graphic
 excerpt: A comprehensive comparison of popular Rust Vulkan libraries and how to select the appropriate one for your needs.
 lang: en
 cover img: https://www.collabora.com/assets/images/blog/Rust-Vukan_CC.jpg

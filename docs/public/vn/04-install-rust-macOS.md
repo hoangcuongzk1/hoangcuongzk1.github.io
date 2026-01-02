@@ -2,7 +2,7 @@
 title: Cài đặt Rust trên MacOS
 creation date: 2026-01-02T01:26:00
 slug: post-04
-series: rust
+series: rust-graphic
 excerpt: Cách cài đặt Rust trên macOS.
 lang: vn
 cover img: https://locusit.com/wp-content/uploads/2024/08/rust-vs-cplusplus-about-rust.jpg
@@ -87,11 +87,12 @@ Chỉnh sửa nội dung file `.gitignore` mặc định thành:
 # jetbrain IDE
 [Ii]dea/ 
 
-# default build files of Rust
-/target
+# default build files of Rust for all folders
+**/target/
 
 # macOS 
 *.DS_Store
+
 
 ```
 
