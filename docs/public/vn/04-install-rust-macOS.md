@@ -55,7 +55,11 @@ rustup doc
 
 **Cách 1: Tạo project mới vào một folder mới**
 ```bash
-cargo new projectName
+cargo new projectName       # binary    
+# or
+cargo new projectName --bin # binary
+# or
+cargo new projectName --lib # library
 ```
 
 **Cách 2: Tạo project từ folder có sẵn**
@@ -123,7 +127,7 @@ cargo run --release
 Build execution file từ một file `.rs`:
 
 ```bash
-rustc pathToRustFile.rs
+rustc path_to_a_rust_file.rs
 ```
 
 ## Tài liệu tham khảo

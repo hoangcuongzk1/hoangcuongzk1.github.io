@@ -65,7 +65,11 @@ rustup doc
 **Method 1: Create a new project in a new directory**
 
 ```bash
-cargo new projectName
+cargo new projectName       # binary    
+# or
+cargo new projectName --bin # binary
+# or
+cargo new projectName --lib # library
 ```
 
 **Method 2: Create a project from an existing directory**
@@ -142,7 +146,7 @@ cargo run --release
 Compile an executable file from a `.rs` file:
 
 ```bash
-rustc pathToRustFile.rs
+rustc path_to_a_rust_file.rs
 ```
 
 ## References
