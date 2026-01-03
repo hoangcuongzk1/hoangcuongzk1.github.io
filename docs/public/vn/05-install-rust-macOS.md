@@ -1,11 +1,11 @@
 ---
 title: Cài đặt Rust trên MacOS
-creation date: 2026-01-02T01:26:00
-slug: post-04
-series: rust-graphic
+creation date: 2026-01-01T01:26:00
+slug: post-05
+series: rust
 excerpt: Cách cài đặt Rust trên macOS.
 lang: vn
-cover img: https://locusit.com/wp-content/uploads/2024/08/rust-vs-cplusplus-about-rust.jpg
+cover img: https://i.ytimg.com/vi/yt8ujLidMYE/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEAgTyhyMA8=&rs=AOn4CLDpJbU3fCmn2jrNXH5TZ5CthPFqxg
 tags:
   - 🦀rust
 ---
@@ -52,6 +52,12 @@ rustup doc
 ---
 ## Khởi tạo project
 ### Tạo Rust Project
+Trong Rust, chúng ta có 2 loại project:
+
+- **binary**: Là project tạo ra file thực thi (executable) có thể chạy trực tiếp. Project binary phải có hàm `main()` làm điểm khởi đầu của chương trình. File mặc định là `src/main.rs`. Đây là loại project được tạo khi dùng lệnh `cargo new project_name`.
+    
+- **library**: Là project tạo ra thư viện (library/crate) để các project khác có thể sử dụng. Project library không có hàm `main()` và không thể chạy trực tiếp, thay vào đó nó export các function, struct, trait, v.v. để tái sử dụng. File mặc định là `src/lib.rs`. Để tạo library project, dùng lệnh `cargo new --lib project_name`.
+    
 
 **Cách 1: Tạo project mới vào một folder mới**
 ```bash
@@ -85,15 +91,13 @@ Nội dung file `main.rs` sẽ là chương trình "Hello, World !" cơ bản.
 Chỉnh sửa nội dung file `.gitignore` mặc định thành:
 ```gitignore
 # jetbrain IDE
-[Ii]dea/ 
+.[Ii]dea/ 
 
 # default build files of Rust for all folders
 **/target/
 
 # macOS 
 *.DS_Store
-
-
 ```
 
 ## Builds
@@ -130,16 +134,3 @@ Build execution file từ một file `.rs`:
 ```bash
 rustc path_to_a_rust_file.rs
 ```
-
-## Tài liệu tham khảo
-- [The Rust Book](https://doc.rust-lang.org/book/)
-- [https://rust-lang.org/learn/](https://rust-lang.org/learn/)
-- [Rust for .Net Developer](https://microsoft.github.io/rust-for-dotnet-devs/latest/)
-- [Cargo Book](https://doc.rust-lang.org/cargo/index.html)
-- [Rust References - Rust 's behaviors](https://doc.rust-lang.org/reference/introduction.html)
-- [Book of Rust Macros](https://lukaswirth.dev/tlborm/)
-- [Rust playground - Online Rust Complier](https://play.rust-lang.org/?version=stable&mode=debug&edition=2024)
-- [Rust Exercise](https://practice.course.rs/why-exercise.html)
-- [https://rust-unofficial.github.io/too-many-lists/index.html](https://rust-unofficial.github.io/too-many-lists/index.html)
-- [Rust Roadmap - GeeksforGeeks](https://www.geeksforgeeks.org/rust/rust-roadmap/)
-- [Cargo.toml vs Cargo.lock - The Cargo Book](https://doc.rust-lang.org/cargo/guide/cargo-toml-vs-cargo-lock.html)
