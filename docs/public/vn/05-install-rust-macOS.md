@@ -15,6 +15,11 @@ tags:
 [!CAUTION] MacOS only !
 Bài viết này chỉ tập trung vào cách setup Rust trên MacOS !
 ```
+
+Bài viết này tập trung vào việc:
+- cài đặt Rust thông qua terminal trên macOS
+- các lệnh quan trọng để khởi tạo, build, chạy project
+
 ## Cài đặt
 
 **Bước 1: cài đặt Rust**
@@ -43,7 +48,7 @@ rustup self uninstall
 
 **Local Document**
 
-Tổng hợp danh sách tài liệu chính thức (offical) để học Rust.
+Tổng hợp danh sách tài liệu chính thức do các nhà phát triển Rust để học Rust.
 
 ```bash
 rustup doc

@@ -125,6 +125,40 @@ $$
 | Codecademy Hoodie |  False   | 42.99 | 42.99 | 42.99 | 42.99 | 42.99 | 42.99 | 42.99 | 42.99 | 42.99 | 42.99 | 42.99 | 42.99 | 42.99 | 42.99 | 42.99 |
 
 
+## Table code block
+
+<table>
+<tr>
+<th>Json 1</th>
+<th>Markdown</th>
+</tr>
+<tr>
+<td>
+
+```json
+{
+  "id": 5,
+  "username": "mary",
+  "email": "mary@example.com",
+  "order_id": "f7177da"
+}
+```
+</td>
+<td>
+
+```json
+{
+  "id": 5,
+  "username": "mary",
+  "email": "mary@example.com",
+  "order_id": "f7177da"
+}
+```
+</td>
+</tr>
+</table>
+
+
 ## Image
 
 ![texture 1](https://i.pinimg.com/736x/6c/1c/0b/6c1c0bb31b77baf726b3b21186f3a280.jpg)

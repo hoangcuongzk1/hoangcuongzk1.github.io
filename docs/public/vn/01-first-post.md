@@ -16,7 +16,11 @@ Trước đây và tới hiện tại, bản thân tôi vẫn luôn tìm kiếm 
 
 Cá nhân tôi thích tìm tài liệu để đọc hơn là xem video, clip. Bởi khi đọc, thông tin tiếp nhận sẽ nhanh hơn → nhiều hơn.
 
-Dĩ nhiên là những video clip có nhiều hình, hoạt ảnh minh hoạ sẽ khiến chúng ta nhanh chóng tiếp thu hơn. Nhưng theo kinh nghiệm lướt web của tôi hơn chục năm nay, tôi đảm bảo với bạn, một nguồn tài liệu bài viết, uy tín, chất lượng kèm với hình ảnh, link liên kết, gif,... chắc chắn sẽ tiết kiệm thời gian và hiệu quả hơn.
+Dĩ nhiên là những video clip có nhiều hình, hoạt ảnh minh hoạ sẽ khiến chúng ta nhanh chóng tiếp thu hơn.
+
+Nhưng quan trọng hơn cả là làm video thì mệt hơn là viết blog 😂. Và tôi thì khá là lười, nên tôi sẽ lựa chọn phương pháp tối giản, phù hợp với bản thân mình thôi.
+
+Tôi cũng không tự tin 100% vào khả năng hành văn, diễn giải kiến thức của mình đâu. Nhưng tôi cũng sẽ cố gắng đề truyền tải nội dung một cách đầy đủ nhất (dưới góc nhìn của tui 🫠).
 
 Hi vọng các bạn sẽ tìm thấy điều gì đó hữu ích ở đây.
 
@@ -28,8 +32,15 @@ Từ khi hình thành thói quen ghi chép, tôi thường ghi chép vào sách.
 
 Các phần mềm này đều rất tuyệt vời, đặc biệt là Obsidian + Git vì nó miễn phí. Có điều không tiện lợi lắm khi đồng bộ với mobile nên tôi vẫn xài song song Notion + Obsidian.
 
-Nhưng có một vài vấn đề với Obsidian là nó "xịn quá", tôi không thể xài hết tính năng của nó. Còn Notion thì giới hạn cho phép chỉnh font chữ mặc định và lại không miễn phí.
-Và thú thiệt, tôi chưa hài lòng lắm với cách tổ chức, tìm kiếm tài liệu của chúng. Tôi chỉ cần những tính năng cơ bản mà một thư viện cá nhân cần có:
+Nhưng có một vài vấn đề với Obsidian là nó chưa thực sự hoàn thiện 100% về tính ổn định của các tính năng. Ví dụ:
+-  Khi dùng thẻ `<details>` của Obsidian sẽ giúp ta có được toggle giống trong Notion.
+- Nhưng nếu ta viết code block ` ``` ``` ` bên trong thẻ `details` thì sẽ bị dính lỗi format ngay.
+
+Còn Notion thì giới hạn cho phép chỉnh font chữ mặc định và lại không miễn phí.
+
+Và thú thiệt, tôi chưa hài lòng lắm với cách tổ chức, tìm kiếm tài liệu của chúng.
+
+Tôi cần những tính năng cơ bản mà một thư viện cá nhân cần có:
 - Ghi, xoá, sửa
 - Lọc, tổng hợp
 - Tìm kiếm
@@ -37,22 +48,31 @@ Và thú thiệt, tôi chưa hài lòng lắm với cách tổ chức, tìm ki�
 - Hỗ trợ song ngữ khi học thêm một ngôn ngữ
 - Đồng bộ giữa các thiết bị
 - Có thể chia sẻ cho người khác một hoặc nhiều tài liệu
-- Vậy thôi ! ko cần thêm chi hết.
+- Không giới hạn kích thước file
 
-Đó kiểu nó phải tối giản vậy thôi, càng minimal càng tốt 🫠. Bởi mục đích tối thượng của một thư viện cá nhân là khi cần tới, thì quá trình tìm kiếm phải nhanh chóng. Kể cả khi vài năm sau nhìn lại, nhìn một cái là biết đây là cái gì.
+Ngoài ra thì đôi khi, tôi sẽ cần một dạng `special data viewer` - dạng custom data viewer. Ví dụ như `Images Compare Slider`. Thì cả Notion, Obsidian, GG docs,... đều không thể đáp ứng hết nhu cầu cá nhân của tôi được.
 
-Chính vì vậy tôi tự xây trang web này (shared version) một phần là để cá nhân hoá trải nghiệm lưu trữ tài liệu của mình. Version private thì tôi build app bundle riêng và đồng bộ một phần với trang web này.
+```img_compare
+- [txt 1](https://i.pinimg.com/736x/e2/0e/a0/e20ea012621fe94bf9d23612230c0e2c.jpg)
+- [txt 2](https://i.pinimg.com/736x/85/be/f9/85bef94fc6080269ca9345737a5aa16e.jpg)
+```
+
+Chính vì vậy tôi tự xây trang web này, một phần là để cá nhân hoá trải nghiệm lưu trữ tài liệu của mình.
+
 
 ## Quan sát và hoàn thiện bản thân 
+
 Chà, cũng khá lâu rồi kể từ khi tôi tự mình học tập và làm việc.
 
 Vì làm việc một mình nên tôi không có ai đánh giá cho chất lượng, hiệu quả những công việc mà tôi làm cả. Việc ghi chép nếu thực hiện nội bộ/cá nhân thì đôi khi sự lười biếng đánh bại tính kỷ luật.
 
 Chính vì vầy, việc công khai suy nghĩ, ngâm cứu,.... của bản thân sẽ phần nào là hình thức gián tiếp ép bản thân phải chịu trách nhiệm cho một nghĩa vụ cụ thể.
+
 Và nếu không hoàn thành thì sẽ khiến bản thân tôi cảm thấy mất uy tín và cắn dứt lương tâm 🙃. Một phương pháp học tập khá là ... kỳ quặc.
 
 
 ## Học Rust 
+
 Khi bắt đầu tìm hiểu về Rust lần đầu tiên vào khoảng 2-3 năm trước. Tôi rất bất ngờ và đã đem lòng mến mộ ngôn ngữ này. Tôi thậm chí còn tạo những code convention có triết lý giống của Rust để làm dự án. 
 
 Nhưng phải thừa nhận, sức mạnh của Rust không chỉ tới từ các triết lý của ngôn ngữ. Mà yếu tố quan trọng hơn cả đó là trình biên dịch của Rust. Nên việc chuyển hoàn toàn sang Rust là điều cần thiết để phát huy toàn bộ sức mạnh mà Rust có.
@@ -77,7 +97,6 @@ Nền tảng kiến thức hiện tại của tôi phần lớn là `C++`, `C#` 
 
 Chắc một số bạn đọc sẽ hỏi là "ủa trang web này thì sao ? Bộ khứa này build bằng C++ à !?".
 - Tôi dùng `React + Tailwind`, nhưng tôi không chuyên sâu về chúng, chỉ đủ để tự xây một trang web tĩnh nhỏ thôi. Nên không thể coi là kiến thức nền tảng được.
-
 
 # Tần suất lên bài
 Thường thì thời gian lên bài sẽ không cố định, nhưng tôi sẽ cố gắng lên ít nhất là 12 bài/năm.
