@@ -139,3 +139,16 @@ Build execution file từ một file `.rs`:
 ```bash
 rustc path_to_a_rust_file.rs
 ```
+
+## Bật nightly Toolchain
+Nightly toolchain giúp ta sử dụng được các tính năng chưa release của Rust toolchain.
+
+**Global**
+```bash
+rustup default nightly
+```
+
+**Project/Directory**
+```bash
+rustup override set nightly
+```

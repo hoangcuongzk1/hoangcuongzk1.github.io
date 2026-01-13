@@ -1,8 +1,8 @@
 ---
 title: Installing Rust on MacOS
 creation date: 2026-01-01T01:26:00
-slug: post-04
-series: rust-graphic
+slug: post-05
+series: rust
 excerpt: A comprehensive guide to installing Rust on macOS
 lang: en
 cover img: https://i.ytimg.com/vi/yt8ujLidMYE/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEAgTyhyMA8=&rs=AOn4CLDpJbU3fCmn2jrNXH5TZ5CthPFqxg
