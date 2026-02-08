@@ -2,7 +2,7 @@
 title: Setting Up Vulkan on macOS
 creation date: 2026-01-14T01:26:00
 slug: post-06
-series: rust
+series: vulkan
 excerpt: Essential setup guide for macOS when working with Rust and Vulkan.
 lang: en
 cover img: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd4hxsajtTMpwD_kEhUspdjSJIWLGtE22c5g&s

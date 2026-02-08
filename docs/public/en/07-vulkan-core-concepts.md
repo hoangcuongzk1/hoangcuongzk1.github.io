@@ -2,7 +2,7 @@
 title: Core Concepts in Vulkan and Their Meanings
 creation date: 2026-02-09T01:26:00
 slug: post-07
-series: rust
+series: vulkan
 excerpt:
 lang: en
 cover img: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2F2NVlG9TFT1c%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=1bc48266157d288817a9fdf26479c7009f947736ff5e91538c17a7f2afed3274
