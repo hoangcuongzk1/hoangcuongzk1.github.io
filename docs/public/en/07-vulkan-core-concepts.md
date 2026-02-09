@@ -43,8 +43,81 @@ The GPU can access memory much faster when the data is organized optimally for t
 - **Copying data**: You want a simple linear arrangement for fast memory transfers
 
 ## Transition Layout
-
+---
 In Vulkan, a transition layout refers to the process of changing an image layout - `VkImageLayout` from one state to another to prepare it for different operations.
 
 An image must be correct layout before you perform an operation on it, or you'll get undefined behavior or validation errors.
 
+
+## PCI & PCIe
+---
+
+
+$$
+\begin{aligned}
+PCI &= \text{Peripheral Component Interconnect} \\
+PCIe &= \text{PCI Express}
+\end{aligned}
+$$
+
+
+```mermaid
+flowchart LR
+    CPU["CPU<br/>System RAM"]
+
+    GPU["GPU<br/>VRAM"]
+    SSD["NVMe SSD"]
+    NIC["Network Card"]
+
+    CPU e1@<-->|PCIe| GPU
+    CPU e2@<-->|PCIe| SSD
+    CPU e3@<-->|PCIe| NIC
+
+    e1@{animate: true}
+    e2@{animate: true}
+    e3@{animate: true}
+
+```
+
+
+**PCIe** (PCI Express) is the high-speed bus that connects:
+
+- CPU ↔ GPU (graphics card)
+- CPU ↔ Other devices (SSDs, network cards, etc.)
+
+It's like a highway for data transfer between components.
+
+### Memory Access Across PCIe
+
+The GPU has its own memory (VRAM) separate from system RAM. Data must travel across the PCIe bus to get between them.
+
+1. **Device-local memory (VRAM)**
+    - Lives on the GPU side
+    - GPU accesses it directly (fast)
+    - CPU must go through PCIe to access (slow or impossible)
+2. **Host-visible memory**
+    - Could be system RAM
+    - Could be a small portion of VRAM mapped for CPU access
+    - Requires PCIe transfers
+3. **Shared memory (BAR - Base Address Register)**
+    - A region of GPU memory mapped into CPU address space
+    - CPU can write directly, but still goes through PCIe
+    - Limited size traditionally (256MB), but newer systems support "Resizable BAR"
+
+## GPU Memory Types in Vulkan
+---
+Vulkan exposes different memory types through **memory poperty flags**. The actual number of combinations depend on the device's hardware.
+
+
+| Count | Flag                                      | Meaning                                                                                                                          |
+| ----- | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | `VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT`     | - memory physically on GPU<br>- Faster for GPU to access<br>- usually NOT accessible by CPU                                      |
+| 2     | `VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT`     | - CPU can map and access this memory<br>- required if we want to write from CPU                                                  |
+| 3     | `VK_MEMORY_PROPERTY_HOST_COHERENT_BIT`    | - automatic synchronization between CPU and GPU<br>- no need to manually flush/invalidate<br>- slightly slower than non-coherent |
+| 4     | `VK_MEMORY_PROPERTY_HOST_CACHED_BIT`      | - is cached on CPU side<br>- faster for CPU reads<br>- need to flush/invalidate manually                                         |
+| 5     | `VK_MEMORY_PROPERTY_LAZILY_ALLOCATED_BIT` | - only allocated when actually used<br>- good for transient attackments                                                          |
+| 6     | `VK_MEMORY_PROPERTY_PROTECTED_BIT`        | protected memory (for DRM content)                                                                                               |
+
+## Staging Buffer
+---
+A staging buffer is a temporary buffer that sits between the CPU and the GPU's optimal memory.
