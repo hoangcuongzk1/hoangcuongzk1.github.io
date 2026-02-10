@@ -121,3 +121,9 @@ Vulkan exposes different memory types through **memory poperty flags**. The actu
 ## Staging Buffer
 ---
 A staging buffer is a temporary buffer that sits between the CPU and the GPU's optimal memory.
+
+
+```img_compare
+- [txt 1](https://i.pinimg.com/736x/e2/0e/a0/e20ea012621fe94bf9d23612230c0e2c.jpg)
+- [txt 2](https://i.pinimg.com/736x/85/be/f9/85bef94fc6080269ca9345737a5aa16e.jpg)
+```
