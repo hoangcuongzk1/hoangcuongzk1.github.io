@@ -6,7 +6,7 @@ slug: xynok-engine-00
 series: Xynok Engine
 excerpt: A brief guide to the documentation navigator.
 lang: en
-cover img: https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/public/en/xynok_engine/assets/textures/xynok_engine_readme_coverpost.png?raw=true
+cover img: https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/xynok-engine/assets/textures/xynok_engine_readme_coverpost.png?raw=true
 tags:
   - xynok-engine
 ---
