@@ -1,6 +1,7 @@
 ---
 title: Core Concepts in Vulkan and Their Meanings
 creation date: 2026-02-09T01:26:00
+last edited: 2026-02-15
 slug: post-07
 series: vulkan
 excerpt:
@@ -135,4 +136,55 @@ A staging buffer is a temporary buffer that sits between the CPU and the GPU's o
 ```img_compare
 - [MSAA ON](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-07/msaa_on.png?raw=true)
 - [MSAA OFF](https://github.com/hoangcuongzk1/hoangcuongzk1.github.io/blob/main/docs/shared/post-07/msaa_off.png?raw=true)
+```
+
+ - AA, FXAA, or SMAA
+
+## Rust macro specifiers
+
+```rust
+macro_rules! example {
+    (
+        // Matches an identifier (variable/type/function name)
+        ident: $name:ident,
+        
+        // Matches any expression (calculations, function calls, etc)
+        expr: $value:expr,
+        
+        // Matches a type (i32, Vec<String>, MyStruct, etc)
+        ty: $type:ty,
+        
+        // Matches a pattern (used in match, let, etc)
+        pat: $pattern:pat,
+        
+        // Matches a statement (let x = 5;, return;, etc)
+        stmt: $statement:stmt,
+        
+        // Matches a block of code ({ ... })
+        block: $code:block,
+        
+        // Matches an item (struct, fn, impl, etc)
+        item: $item:item,
+        
+        // Matches a literal (42, "hello", true, 3.14)
+        literal: $lit:literal,
+        
+        // Matches a lifetime ('a, 'static)
+        lifetime: $lt:lifetime,
+        
+        // Matches visibility (pub, pub(crate), etc)
+        vis: $visibility:vis,
+        
+        // Matches a path (std::vec::Vec, super::MyType)
+        path: $p:path,
+        
+        // Matches meta attributes (#[derive(Debug)])
+        meta: $m:meta,
+        
+        // Token tree - matches anything as raw tokens
+        tt: $tokens:tt,
+    ) => {
+        // Use them with $name, $value, $type, etc.
+    };
+}
 ```

@@ -1,0 +1,23 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("public/en")
+    order:
+      - title
+      - file.name
+      - file.tags
+      - creation date
+    sort:
+      - property: title
+        direction: DESC
+  - type: cards
+    name: Cards
+    filters:
+      and:
+        - file.inFolder("public/en")
+    order:
+      - file.name
+      - tags
+    image: note.cover img

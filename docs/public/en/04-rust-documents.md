@@ -1,6 +1,7 @@
 ---
 title: A compilation of resources for learning Rust
 creation date: 2026-01-01T01:02:00
+last edited: 2026-02-15
 slug: post-04
 series: rust
 excerpt: Collections of the web, youtube channel, book,... to learn Rust.

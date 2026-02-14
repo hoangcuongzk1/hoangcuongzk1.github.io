@@ -1,6 +1,7 @@
 ---
 title: Installing Rust on MacOS
 creation date: 2026-01-01T01:26:00
+last edited: 2026-02-15
 slug: post-05
 series: rust
 excerpt: A comprehensive guide to installing Rust on macOS
@@ -9,7 +10,7 @@ cover img: https://i.ytimg.com/vi/yt8ujLidMYE/sddefault.jpg?sqp=-oaymwEmCIAFEOAD
 tags:
   - 🦀rust
 ---
-## Introduction
+## Overview
 
 ```callout
 [!CAUTION] MacOS only!
@@ -112,7 +113,7 @@ Modify the default `.gitignore` file content to:
 
 **Verification compilation**
 
-```
+```bash
 cargo check
 ```
 

@@ -1,6 +1,7 @@
 ---
 title: Test Post Rendering
 creation date: 2025-12-08T01:26:00
+last edited: 2026-02-15T05:05:00
 slug: post-00
 series: debug
 excerpt: Test Post Rendering from markdown to HTML.

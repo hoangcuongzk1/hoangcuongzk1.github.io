@@ -1,6 +1,7 @@
 ---
 title: Punch card machine
 creation date: 2025-12-13T05:56:00
+last edited: 2026-02-15
 slug: post-02
 series: computer-hardwares
 excerpt: How punch cards work.

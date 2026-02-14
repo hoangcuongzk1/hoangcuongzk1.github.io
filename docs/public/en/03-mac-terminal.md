@@ -1,6 +1,7 @@
 ---
 title: Boosting Productivity with Terminal
 creation date: 2026-01-01T22:25:00
+last edited: 2026-02-15
 slug: post-03
 series: productivity
 excerpt: What is Terminal? Practical applications of Terminal usage.
