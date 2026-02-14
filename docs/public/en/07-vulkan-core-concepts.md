@@ -1,7 +1,7 @@
 ---
 title: Core Concepts in Vulkan and Their Meanings
 creation date: 2026-02-09T01:26:00
-last edited: 2026-02-15
+last edited: 2026-02-15T01:23:00
 slug: post-07
 series: vulkan
 excerpt:

@@ -1,7 +1,7 @@
 ---
 title: First Post
 creation date: 2025-12-09T01:15:00
-last edited: 2026-02-15
+last edited: 2025-12-09T01:15:00
 slug: post-01
 series: talk
 excerpt: Why This Website Exists, and What It Will Contain.
