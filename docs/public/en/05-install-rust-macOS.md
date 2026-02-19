@@ -135,6 +135,11 @@ cargo build --release
 cargo run
 ```
 
+**Build and execute the program with `--quiet` mode**
+```bash
+cargo run -q
+```
+
 **Optimised build and execution**
 
 ```bash
