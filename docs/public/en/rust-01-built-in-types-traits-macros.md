@@ -1,7 +1,7 @@
 ---
 title: "Rust: Built-in types, traits & macros"
 creation date: 2026-02-27T01:12:00
-last edited: 2026-02-27T01:12:00
+last edited: 2026-03-05T16:43:09+07:00
 slug: rust-01-built-in-types-traits-macros
 series: rust
 excerpt:
@@ -141,14 +141,14 @@ let x = 3.14;  // inferred as f64
 
 ## Iteration & Collections
 
-|Rust Trait|C# Equivalent|Purpose|
-|---|---|---|
-|`Iterator`|`IEnumerator<T>`|Defines `next()`, enables `for` loops|
-|`IntoIterator`|`IEnumerable<T>`|Converts a type into an iterator|
-|`FromIterator`|LINQ `.ToList()` etc.|Build collection from iterator|
-|`Extend`|—|Append iterator items into collection|
-|`Index`|`this[i]` indexer|`[]` read access|
-|`IndexMut`|`this[i]` indexer|`[]` mutable access|
+| Rust Trait     | C# Equivalent         | Purpose                               |
+| -------------- | --------------------- | ------------------------------------- |
+| `Iterator`     | `IEnumerator<T>`      | Defines `next()`, enables `for` loops |
+| `IntoIterator` | `IEnumerable<T>`      | Converts a type into an iterator      |
+| `FromIterator` | LINQ `.ToList()` etc. | Build collection from iterator        |
+| `Extend`       | —                     | Append iterator items into collection |
+| `Index`        | `this[i]` indexer     | `[]` read access                      |
+| `IndexMut`     | `this[i]` indexer     | `[]` mutable access                   |
 
 ---
 
